@@ -1,0 +1,2769 @@
+[
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Turtwig_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Tortipouss"
+            },
+            "names": {
+               "en": "Turtwig",
+               "fr": "Tortipouss"
+            },
+            "types": [
+               "grass"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 387
+   },
+   {
+      "evolves_from": 387,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Grotle_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Boskara"
+            },
+            "names": {
+               "en": "Grotle",
+               "fr": "Boskara"
+            },
+            "types": [
+               "grass"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 388
+   },
+   {
+      "evolves_from": 388,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Torterra_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Torterra"
+            },
+            "names": {
+               "en": "Torterra",
+               "fr": "Torterra"
+            },
+            "types": [
+               "grass",
+               "ground"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 389
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Chimchar_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Ouisticram"
+            },
+            "names": {
+               "en": "Chimchar",
+               "fr": "Ouisticram"
+            },
+            "types": [
+               "fire"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 390
+   },
+   {
+      "evolves_from": 390,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Monferno_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Chimpenfeu"
+            },
+            "names": {
+               "en": "Monferno",
+               "fr": "Chimpenfeu"
+            },
+            "types": [
+               "fire",
+               "fighting"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 391
+   },
+   {
+      "evolves_from": 391,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Infernape_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Simiabraz"
+            },
+            "names": {
+               "en": "Infernape",
+               "fr": "Simiabraz"
+            },
+            "types": [
+               "fire",
+               "fighting"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 392
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Piplup_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Tiplouf"
+            },
+            "names": {
+               "en": "Piplup",
+               "fr": "Tiplouf"
+            },
+            "types": [
+               "water"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 393
+   },
+   {
+      "evolves_from": 393,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Prinplup_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Prinplouf"
+            },
+            "names": {
+               "en": "Prinplup",
+               "fr": "Prinplouf"
+            },
+            "types": [
+               "water"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 394
+   },
+   {
+      "evolves_from": 394,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Empoleon_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Pingol%C3%A9on"
+            },
+            "names": {
+               "en": "Empoleon",
+               "fr": "Pingoléon"
+            },
+            "types": [
+               "water",
+               "steel"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 395
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Starly_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/%C3%89tourmi"
+            },
+            "names": {
+               "en": "Starly",
+               "fr": "Étourmi"
+            },
+            "types": [
+               "normal",
+               "flying"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 396
+   },
+   {
+      "evolves_from": 396,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Staravia_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/%C3%89tourvol"
+            },
+            "names": {
+               "en": "Staravia",
+               "fr": "Étourvol"
+            },
+            "types": [
+               "normal",
+               "flying"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 397
+   },
+   {
+      "evolves_from": 397,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Staraptor_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/%C3%89touraptor"
+            },
+            "names": {
+               "en": "Staraptor",
+               "fr": "Étouraptor"
+            },
+            "types": [
+               "normal",
+               "flying"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 398
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Bidoof_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Keunotor"
+            },
+            "names": {
+               "en": "Bidoof",
+               "fr": "Keunotor"
+            },
+            "types": [
+               "normal"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 399
+   },
+   {
+      "evolves_from": 399,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Bibarel_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Castorno"
+            },
+            "names": {
+               "en": "Bibarel",
+               "fr": "Castorno"
+            },
+            "types": [
+               "normal",
+               "water"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 400
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Kricketot_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Crikzik"
+            },
+            "names": {
+               "en": "Kricketot",
+               "fr": "Crikzik"
+            },
+            "types": [
+               "bug"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 401
+   },
+   {
+      "evolves_from": 401,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Kricketune_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/M%C3%A9lokrik"
+            },
+            "names": {
+               "en": "Kricketune",
+               "fr": "Mélokrik"
+            },
+            "types": [
+               "bug"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 402
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Shinx_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Lixy"
+            },
+            "names": {
+               "en": "Shinx",
+               "fr": "Lixy"
+            },
+            "types": [
+               "electric"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 403
+   },
+   {
+      "evolves_from": 403,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Luxio_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Luxio"
+            },
+            "names": {
+               "en": "Luxio",
+               "fr": "Luxio"
+            },
+            "types": [
+               "electric"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 404
+   },
+   {
+      "evolves_from": 404,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Luxray_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Luxray"
+            },
+            "names": {
+               "en": "Luxray",
+               "fr": "Luxray"
+            },
+            "types": [
+               "electric"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 405
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Budew_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Rozbouton"
+            },
+            "names": {
+               "en": "Budew",
+               "fr": "Rozbouton"
+            },
+            "types": [
+               "grass",
+               "poison"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 406
+   },
+   {
+      "evolves_from": 315,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Roserade_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Roserade"
+            },
+            "names": {
+               "en": "Roserade",
+               "fr": "Roserade"
+            },
+            "types": [
+               "grass",
+               "poison"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 407
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Cranidos_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Kranidos"
+            },
+            "names": {
+               "en": "Cranidos",
+               "fr": "Kranidos"
+            },
+            "types": [
+               "rock"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 408
+   },
+   {
+      "evolves_from": 408,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Rampardos_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charkos"
+            },
+            "names": {
+               "en": "Rampardos",
+               "fr": "Charkos"
+            },
+            "types": [
+               "rock"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 409
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Shieldon_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Dinoclier"
+            },
+            "names": {
+               "en": "Shieldon",
+               "fr": "Dinoclier"
+            },
+            "types": [
+               "rock",
+               "steel"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 410
+   },
+   {
+      "evolves_from": 410,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Bastiodon_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Bastiodon"
+            },
+            "names": {
+               "en": "Bastiodon",
+               "fr": "Bastiodon"
+            },
+            "types": [
+               "rock",
+               "steel"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 411
+   },
+   {
+      "evolves_from": null,
+      "common_names": {
+         "en": "Burmy",
+         "fr": "Cheniti"
+      },
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Burmy_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Cheniti"
+            },
+            "names": {
+               "en": "Burmy Plant Cloak",
+               "fr": "Cheniti Cape Plante"
+            },
+            "types": [
+               "bug"
+            ],
+            "variant": "plant"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Burmy_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Cheniti"
+            },
+            "names": {
+               "en": "Burmy Sandy Cloak",
+               "fr": "Cheniti Cape Sable"
+            },
+            "types": [
+               "bug"
+            ],
+            "variant": "sandy"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Burmy_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Cheniti"
+            },
+            "names": {
+               "en": "Burmy Trash Cloak",
+               "fr": "Cheniti Cape Déchet"
+            },
+            "types": [
+               "bug"
+            ],
+            "variant": "trash"
+         }
+      ],
+      "number": 412
+   },
+   {
+      "evolves_from": 412,
+      "common_names": {
+         "en": "Wormadam",
+         "fr": "Cheniselle"
+      },
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Wormadam_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Cheniselle"
+            },
+            "names": {
+               "en": "Wormadam Plant Cloak",
+               "fr": "Cheniselle Cape Plante"
+            },
+            "types": [
+               "bug",
+               "grass"
+            ],
+            "variant": "plant"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Wormadam_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Cheniselle"
+            },
+            "names": {
+               "en": "Wormadam Sandy Cloak",
+               "fr": "Cheniselle Cape Sable"
+            },
+            "types": [
+               "bug",
+               "ground"
+            ],
+            "variant": "sandy"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Wormadam_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Cheniselle"
+            },
+            "names": {
+               "en": "Wormadam Trash Cloak",
+               "fr": "Cheniselle Cape Déchet"
+            },
+            "types": [
+               "bug",
+               "steel"
+            ],
+            "variant": "trash"
+         }
+      ],
+      "number": 413
+   },
+   {
+      "evolves_from": 412,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Mothim_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Papilord"
+            },
+            "names": {
+               "en": "Mothim",
+               "fr": "Papilord"
+            },
+            "types": [
+               "bug",
+               "flying"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 414
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Combee_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Apitrini"
+            },
+            "names": {
+               "en": "Combee",
+               "fr": "Apitrini"
+            },
+            "types": [
+               "bug",
+               "flying"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 415
+   },
+   {
+      "evolves_from": 415,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Vespiquen_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Apireine"
+            },
+            "names": {
+               "en": "Vespiquen",
+               "fr": "Apireine"
+            },
+            "types": [
+               "bug",
+               "flying"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 416
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Pachirisu_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Pachirisu"
+            },
+            "names": {
+               "en": "Pachirisu",
+               "fr": "Pachirisu"
+            },
+            "types": [
+               "electric"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 417
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Buizel_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Must%C3%A9bou%C3%A9e"
+            },
+            "names": {
+               "en": "Buizel",
+               "fr": "Mustébouée"
+            },
+            "types": [
+               "water"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 418
+   },
+   {
+      "evolves_from": 418,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Floatzel_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Must%C3%A9flott"
+            },
+            "names": {
+               "en": "Floatzel",
+               "fr": "Mustéflott"
+            },
+            "types": [
+               "water"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 419
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Cherubi_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Ceribou"
+            },
+            "names": {
+               "en": "Cherubi",
+               "fr": "Ceribou"
+            },
+            "types": [
+               "grass"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 420
+   },
+   {
+      "evolves_from": 420,
+      "common_names": {
+         "en": "Cherrim",
+         "fr": "Ceriflor"
+      },
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Cherrim_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Ceriflor"
+            },
+            "names": {
+               "en": "Cherrim Overcast Form",
+               "fr": "Ceriflor Temps Couvert"
+            },
+            "types": [
+               "grass"
+            ],
+            "variant": "overcast"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Cherrim_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Ceriflor"
+            },
+            "names": {
+               "en": "Cherrim Sunshine Form",
+               "fr": "Ceriflor Temps Ensoleillé"
+            },
+            "types": [
+               "grass"
+            ],
+            "variant": "sunshine",
+            "derives": {
+               "from": ["overcast"],
+               "temporary": true
+            }
+         }
+      ],
+      "number": 421
+   },
+   {
+      "evolves_from": null,
+      "common_names": {
+         "en": "Shellos",
+         "fr": "Sancoki"
+      },
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Shellos_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Sancoki"
+            },
+            "names": {
+               "en": "Shellos West Sea",
+               "fr": "Sancoki Mer Occident"
+            },
+            "types": [
+               "water"
+            ],
+            "variant": "west"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Shellos_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Sancoki"
+            },
+            "names": {
+               "en": "Shellos East Sea",
+               "fr": "Sancoki Mer Orient"
+            },
+            "types": [
+               "water"
+            ],
+            "variant": "east"
+         }
+      ],
+      "number": 422
+   },
+   {
+      "evolves_from": 422,
+      "common_names": {
+         "en": "Gastrodon",
+         "fr": "Tritosor"
+      },
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Gastrodon_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Tritosor"
+            },
+            "names": {
+               "en": "Gastrodon West Sea",
+               "fr": "Tritosor Mer Occident"
+            },
+            "types": [
+               "water",
+               "ground"
+            ],
+            "variant": "west"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Gastrodon_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Tritosor"
+            },
+            "names": {
+               "en": "Gastrodon East Sea",
+               "fr": "Tritosor Mer Orient"
+            },
+            "types": [
+               "water",
+               "ground"
+            ],
+            "variant": "east"
+         }
+      ],
+      "number": 423
+   },
+   {
+      "evolves_from": 190,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Ambipom_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Capidextre"
+            },
+            "names": {
+               "en": "Ambipom",
+               "fr": "Capidextre"
+            },
+            "types": [
+               "normal"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 424
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Drifloon_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Baudrive"
+            },
+            "names": {
+               "en": "Drifloon",
+               "fr": "Baudrive"
+            },
+            "types": [
+               "ghost",
+               "flying"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 425
+   },
+   {
+      "evolves_from": 425,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Drifblim_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Grodrive"
+            },
+            "names": {
+               "en": "Drifblim",
+               "fr": "Grodrive"
+            },
+            "types": [
+               "ghost",
+               "flying"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 426
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Buneary_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Laporeille"
+            },
+            "names": {
+               "en": "Buneary",
+               "fr": "Laporeille"
+            },
+            "types": [
+               "normal"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 427
+   },
+   {
+      "evolves_from": 427,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Lopunny_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Lockpin"
+            },
+            "names": {
+               "en": "Lopunny",
+               "fr": "Lockpin"
+            },
+            "types": [
+               "normal"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 428
+   },
+   {
+      "evolves_from": 200,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Mismagius_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Magir%C3%AAve"
+            },
+            "names": {
+               "en": "Mismagius",
+               "fr": "Magirêve"
+            },
+            "types": [
+               "ghost"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 429
+   },
+   {
+      "evolves_from": 198,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Honchkrow_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Corboss"
+            },
+            "names": {
+               "en": "Honchkrow",
+               "fr": "Corboss"
+            },
+            "types": [
+               "dark",
+               "flying"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 430
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Glameow_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Chaglam"
+            },
+            "names": {
+               "en": "Glameow",
+               "fr": "Chaglam"
+            },
+            "types": [
+               "normal"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 431
+   },
+   {
+      "evolves_from": 431,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Purugly_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Chaffreux"
+            },
+            "names": {
+               "en": "Purugly",
+               "fr": "Chaffreux"
+            },
+            "types": [
+               "normal"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 432
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Chingling_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Korillon"
+            },
+            "names": {
+               "en": "Chingling",
+               "fr": "Korillon"
+            },
+            "types": [
+               "psychic"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 433
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Stunky_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Moufouette"
+            },
+            "names": {
+               "en": "Stunky",
+               "fr": "Moufouette"
+            },
+            "types": [
+               "poison",
+               "dark"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 434
+   },
+   {
+      "evolves_from": 434,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Skuntank_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Moufflair"
+            },
+            "names": {
+               "en": "Skuntank",
+               "fr": "Moufflair"
+            },
+            "types": [
+               "poison",
+               "dark"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 435
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Bronzor_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Arch%C3%A9omire"
+            },
+            "names": {
+               "en": "Bronzor",
+               "fr": "Archéomire"
+            },
+            "types": [
+               "steel",
+               "psychic"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 436
+   },
+   {
+      "evolves_from": 436,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Bronzong_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Arch%C3%A9odong"
+            },
+            "names": {
+               "en": "Bronzong",
+               "fr": "Archéodong"
+            },
+            "types": [
+               "steel",
+               "psychic"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 437
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Bonsly_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Manza%C3%AF"
+            },
+            "names": {
+               "en": "Bonsly",
+               "fr": "Manzaï"
+            },
+            "types": [
+               "rock"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 438
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Mime_Jr._(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Mime_Jr."
+            },
+            "names": {
+               "en": "Mime Jr.",
+               "fr": "Mime Jr."
+            },
+            "types": [
+               "psychic",
+               "fairy"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 439
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Happiny_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Ptiravi"
+            },
+            "names": {
+               "en": "Happiny",
+               "fr": "Ptiravi"
+            },
+            "types": [
+               "normal"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 440
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Chatot_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Pijako"
+            },
+            "names": {
+               "en": "Chatot",
+               "fr": "Pijako"
+            },
+            "types": [
+               "normal",
+               "flying"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 441
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Spiritomb_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Spiritomb"
+            },
+            "names": {
+               "en": "Spiritomb",
+               "fr": "Spiritomb"
+            },
+            "types": [
+               "ghost",
+               "dark"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 442
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Gible_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Griknot"
+            },
+            "names": {
+               "en": "Gible",
+               "fr": "Griknot"
+            },
+            "types": [
+               "dragon",
+               "ground"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 443
+   },
+   {
+      "evolves_from": 443,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Gabite_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Carmache"
+            },
+            "names": {
+               "en": "Gabite",
+               "fr": "Carmache"
+            },
+            "types": [
+               "dragon",
+               "ground"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 444
+   },
+   {
+      "evolves_from": 444,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Garchomp_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Carchacrok"
+            },
+            "names": {
+               "en": "Garchomp",
+               "fr": "Carchacrok"
+            },
+            "types": [
+               "dragon",
+               "ground"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 445
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Munchlax_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Goinfrex"
+            },
+            "names": {
+               "en": "Munchlax",
+               "fr": "Goinfrex"
+            },
+            "types": [
+               "normal"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 446
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Riolu_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Riolu"
+            },
+            "names": {
+               "en": "Riolu",
+               "fr": "Riolu"
+            },
+            "types": [
+               "fighting"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 447
+   },
+   {
+      "evolves_from": 447,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Lucario_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Lucario"
+            },
+            "names": {
+               "en": "Lucario",
+               "fr": "Lucario"
+            },
+            "types": [
+               "fighting",
+               "steel"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 448
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Hippopotas_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Hippopotas"
+            },
+            "names": {
+               "en": "Hippopotas",
+               "fr": "Hippopotas"
+            },
+            "types": [
+               "ground"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 449
+   },
+   {
+      "evolves_from": 449,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Hippowdon_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Hippodocus"
+            },
+            "names": {
+               "en": "Hippowdon",
+               "fr": "Hippodocus"
+            },
+            "types": [
+               "ground"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 450
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Skorupi_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Rapion"
+            },
+            "names": {
+               "en": "Skorupi",
+               "fr": "Rapion"
+            },
+            "types": [
+               "poison",
+               "bug"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 451
+   },
+   {
+      "evolves_from": 451,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Drapion_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Drascore"
+            },
+            "names": {
+               "en": "Drapion",
+               "fr": "Drascore"
+            },
+            "types": [
+               "poison",
+               "dark"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 452
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Croagunk_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Cradopaud"
+            },
+            "names": {
+               "en": "Croagunk",
+               "fr": "Cradopaud"
+            },
+            "types": [
+               "poison",
+               "fighting"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 453
+   },
+   {
+      "evolves_from": 453,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Toxicroak_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Coatox"
+            },
+            "names": {
+               "en": "Toxicroak",
+               "fr": "Coatox"
+            },
+            "types": [
+               "poison",
+               "fighting"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 454
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Carnivine_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Vortente"
+            },
+            "names": {
+               "en": "Carnivine",
+               "fr": "Vortente"
+            },
+            "types": [
+               "grass"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 455
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Finneon_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/%C3%89cayon"
+            },
+            "names": {
+               "en": "Finneon",
+               "fr": "Écayon"
+            },
+            "types": [
+               "water"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 456
+   },
+   {
+      "evolves_from": 456,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Lumineon_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Lumin%C3%A9on"
+            },
+            "names": {
+               "en": "Lumineon",
+               "fr": "Luminéon"
+            },
+            "types": [
+               "water"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 457
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Mantyke_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Babimanta"
+            },
+            "names": {
+               "en": "Mantyke",
+               "fr": "Babimanta"
+            },
+            "types": [
+               "water",
+               "flying"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 458
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Snover_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Blizzi"
+            },
+            "names": {
+               "en": "Snover",
+               "fr": "Blizzi"
+            },
+            "types": [
+               "grass",
+               "ice"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 459
+   },
+   {
+      "evolves_from": 459,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Abomasnow_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Blizzaroi"
+            },
+            "names": {
+               "en": "Abomasnow",
+               "fr": "Blizzaroi"
+            },
+            "types": [
+               "grass",
+               "ice"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 460
+   },
+   {
+      "evolves_from": 215,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Weavile_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Dimoret"
+            },
+            "names": {
+               "en": "Weavile",
+               "fr": "Dimoret"
+            },
+            "types": [
+               "dark",
+               "ice"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 461
+   },
+   {
+      "evolves_from": 82,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Magnezone_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Magn%C3%A9zone"
+            },
+            "names": {
+               "en": "Magnezone",
+               "fr": "Magnézone"
+            },
+            "types": [
+               "electric",
+               "steel"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 462
+   },
+   {
+      "evolves_from": 108,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Lickilicky_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Coudlangue"
+            },
+            "names": {
+               "en": "Lickilicky",
+               "fr": "Coudlangue"
+            },
+            "types": [
+               "normal"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 463
+   },
+   {
+      "evolves_from": 112,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Rhyperior_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Rhinastoc"
+            },
+            "names": {
+               "en": "Rhyperior",
+               "fr": "Rhinastoc"
+            },
+            "types": [
+               "ground",
+               "rock"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 464
+   },
+   {
+      "evolves_from": 114,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Tangrowth_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Bouldeneu"
+            },
+            "names": {
+               "en": "Tangrowth",
+               "fr": "Bouldeneu"
+            },
+            "types": [
+               "grass"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 465
+   },
+   {
+      "evolves_from": 125,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Electivire_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/%C3%89lekable"
+            },
+            "names": {
+               "en": "Electivire",
+               "fr": "Élekable"
+            },
+            "types": [
+               "electric"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 466
+   },
+   {
+      "evolves_from": 126,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Magmortar_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Maganon"
+            },
+            "names": {
+               "en": "Magmortar",
+               "fr": "Maganon"
+            },
+            "types": [
+               "fire"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 467
+   },
+   {
+      "evolves_from": 176,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Togekiss_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Togekiss"
+            },
+            "names": {
+               "en": "Togekiss",
+               "fr": "Togekiss"
+            },
+            "types": [
+               "fairy",
+               "flying"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 468
+   },
+   {
+      "evolves_from": 193,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Yanmega_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Yanmega"
+            },
+            "names": {
+               "en": "Yanmega",
+               "fr": "Yanmega"
+            },
+            "types": [
+               "bug",
+               "flying"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 469
+   },
+   {
+      "evolves_from": 133,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Leafeon_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Phyllali"
+            },
+            "names": {
+               "en": "Leafeon",
+               "fr": "Phyllali"
+            },
+            "types": [
+               "grass"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 470
+   },
+   {
+      "evolves_from": 133,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Glaceon_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Givrali"
+            },
+            "names": {
+               "en": "Glaceon",
+               "fr": "Givrali"
+            },
+            "types": [
+               "ice"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 471
+   },
+   {
+      "evolves_from": 207,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Gliscor_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Scorvol"
+            },
+            "names": {
+               "en": "Gliscor",
+               "fr": "Scorvol"
+            },
+            "types": [
+               "ground",
+               "flying"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 472
+   },
+   {
+      "evolves_from": 221,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Mamoswine_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Mammochon"
+            },
+            "names": {
+               "en": "Mamoswine",
+               "fr": "Mammochon"
+            },
+            "types": [
+               "ice",
+               "ground"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 473
+   },
+   {
+      "evolves_from": 233,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Porygon-Z_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Porygon-Z"
+            },
+            "names": {
+               "en": "Porygon-Z",
+               "fr": "Porygon-Z"
+            },
+            "types": [
+               "normal"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 474
+   },
+   {
+      "evolves_from": 281,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Gallade_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Gallame"
+            },
+            "names": {
+               "en": "Gallade",
+               "fr": "Gallame"
+            },
+            "types": [
+               "psychic",
+               "fighting"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 475
+   },
+   {
+      "evolves_from": 299,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Probopass_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Tarinorme"
+            },
+            "names": {
+               "en": "Probopass",
+               "fr": "Tarinorme"
+            },
+            "types": [
+               "rock",
+               "steel"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 476
+   },
+   {
+      "evolves_from": 356,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Dusknoir_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Noctunoir"
+            },
+            "names": {
+               "en": "Dusknoir",
+               "fr": "Noctunoir"
+            },
+            "types": [
+               "ghost"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 477
+   },
+   {
+      "evolves_from": 361,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Froslass_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Momartik"
+            },
+            "names": {
+               "en": "Froslass",
+               "fr": "Momartik"
+            },
+            "types": [
+               "ice",
+               "ghost"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 478
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Motisma"
+            },
+            "names": {
+               "en": "Rotom",
+               "fr": "Motisma"
+            },
+            "types": [
+               "electric",
+               "ghost"
+            ],
+            "variant": null
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Motisma"
+            },
+            "names": {
+               "en": "Rotom Heat Rottom",
+               "fr": "Motisma Motisma Chaleur"
+            },
+            "types": [
+               "electric",
+               "fire"
+            ],
+            "variant": "heat",
+            "derives": {
+               "from": [null],
+               "temporary": false
+            }
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Motisma"
+            },
+            "names": {
+               "en": "Rotom Wash Rottom",
+               "fr": "Motisma Motisma Lavage"
+            },
+            "types": [
+               "electric",
+               "water"
+            ],
+            "variant": "wash",
+            "derives": {
+               "from": [null],
+               "temporary": false
+            }
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Motisma"
+            },
+            "names": {
+               "en": "Rotom Frost Rottom",
+               "fr": "Motisma Motisma Froid"
+            },
+            "types": [
+               "electric",
+               "ice"
+            ],
+            "variant": "frost",
+            "derives": {
+               "from": [null],
+               "temporary": false
+            }
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Motisma"
+            },
+            "names": {
+               "en": "Rotom Fan Rottom",
+               "fr": "Motisma Motisma Hélice"
+            },
+            "types": [
+               "electric",
+               "flying"
+            ],
+            "variant": "fan",
+            "derives": {
+               "from": [null],
+               "temporary": false
+            }
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Motisma"
+            },
+            "names": {
+               "en": "Rotom Mow Rottom",
+               "fr": "Motisma Motisma Tonte"
+            },
+            "types": [
+               "electric",
+               "grass"
+            ],
+            "variant": "mow",
+            "derives": {
+               "from": [null],
+               "temporary": false
+            }
+         }
+      ],
+      "number": 479
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Uxie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Cr%C3%A9helf"
+            },
+            "names": {
+               "en": "Uxie",
+               "fr": "Créhelf"
+            },
+            "types": [
+               "psychic"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 480
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Mesprit_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Cr%C3%A9follet"
+            },
+            "names": {
+               "en": "Mesprit",
+               "fr": "Créfollet"
+            },
+            "types": [
+               "psychic"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 481
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Azelf_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Cr%C3%A9fadet"
+            },
+            "names": {
+               "en": "Azelf",
+               "fr": "Créfadet"
+            },
+            "types": [
+               "psychic"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 482
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Dialga_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Dialga"
+            },
+            "names": {
+               "en": "Dialga",
+               "fr": "Dialga"
+            },
+            "types": [
+               "steel",
+               "dragon"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 483
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Palkia_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Palkia"
+            },
+            "names": {
+               "en": "Palkia",
+               "fr": "Palkia"
+            },
+            "types": [
+               "water",
+               "dragon"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 484
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Heatran_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Heatran"
+            },
+            "names": {
+               "en": "Heatran",
+               "fr": "Heatran"
+            },
+            "types": [
+               "fire",
+               "steel"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 485
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Regigigas_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Regigigas"
+            },
+            "names": {
+               "en": "Regigigas",
+               "fr": "Regigigas"
+            },
+            "types": [
+               "normal"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 486
+   },
+   {
+      "evolves_from": null,
+      "common_names": {
+         "en": "Giratina",
+         "fr": "Giratina"
+      },
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Giratina_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Giratina"
+            },
+            "names": {
+               "en": "Giratina Altered Forme",
+               "fr": "Giratina Forme Alternative"
+            },
+            "types": [
+               "ghost",
+               "dragon"
+            ],
+            "variant": "altered"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Giratina_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Giratina"
+            },
+            "names": {
+               "en": "Giratina Origin Forme",
+               "fr": "Giratina Forme Originelle"
+            },
+            "types": [
+               "ghost",
+               "dragon"
+            ],
+            "variant": "origin",
+            "derives": {
+               "from": ["altered"],
+               "temporary": false
+            }
+         }
+      ],
+      "number": 487
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Cresselia_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Cresselia"
+            },
+            "names": {
+               "en": "Cresselia",
+               "fr": "Cresselia"
+            },
+            "types": [
+               "psychic"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 488
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Phione_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Phione"
+            },
+            "names": {
+               "en": "Phione",
+               "fr": "Phione"
+            },
+            "types": [
+               "water"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 489
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Manaphy_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Manaphy"
+            },
+            "names": {
+               "en": "Manaphy",
+               "fr": "Manaphy"
+            },
+            "types": [
+               "water"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 490
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Darkrai_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Darkrai"
+            },
+            "names": {
+               "en": "Darkrai",
+               "fr": "Darkrai"
+            },
+            "types": [
+               "dark"
+            ],
+            "variant": null
+         }
+      ],
+      "number": 491
+   },
+   {
+      "evolves_from": null,
+      "common_names": {
+         "en": "Shaymin",
+         "fr": "Shaymin"
+      },
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Shaymin_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Shaymin"
+            },
+            "names": {
+               "en": "Shaymin Land Forme",
+               "fr": "Shaymin Forme Terrestre"
+            },
+            "types": [
+               "grass"
+            ],
+            "variant": "land"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Shaymin_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Shaymin"
+            },
+            "names": {
+               "en": "Shaymin Sky Forme",
+               "fr": "Shaymin Forme Céleste"
+            },
+            "types": [
+               "grass",
+               "flying"
+            ],
+            "variant": "sky",
+            "derives": {
+               "from": ["land"],
+               "temporary": false
+            }
+         }
+      ],
+      "number": 492
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Arceus_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Arceus"
+            },
+            "names": {
+               "en": "Arceus",
+               "fr": "Arceus"
+            },
+            "types": [
+               "normal"
+            ],
+            "variant": null
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Arceus_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Arceus"
+            },
+            "names": {
+               "en": "Arceus Fighting",
+               "fr": "Arceus Combat"
+            },
+            "types": [
+               "fighting"
+            ],
+            "variant": "fighting",
+            "derives": {
+               "from": [null],
+               "temporary": false
+            }
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Arceus_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Arceus"
+            },
+            "names": {
+               "en": "Arceus Flying",
+               "fr": "Arceus Vol"
+            },
+            "types": [
+               "flying"
+            ],
+            "variant": "flying",
+            "derives": {
+               "from": [null],
+               "temporary": false
+            }
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Arceus_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Arceus"
+            },
+            "names": {
+               "en": "Arceus Poison",
+               "fr": "Arceus Poison"
+            },
+            "types": [
+               "poison"
+            ],
+            "variant": "poison",
+            "derives": {
+               "from": [null],
+               "temporary": false
+            }
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Arceus_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Arceus"
+            },
+            "names": {
+               "en": "Arceus Ground",
+               "fr": "Arceus Sol"
+            },
+            "types": [
+               "ground"
+            ],
+            "variant": "ground",
+            "derives": {
+               "from": [null],
+               "temporary": false
+            }
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Arceus_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Arceus"
+            },
+            "names": {
+               "en": "Arceus Rock",
+               "fr": "Arceus Roche"
+            },
+            "types": [
+               "rock"
+            ],
+            "variant": "rock",
+            "derives": {
+               "from": [null],
+               "temporary": false
+            }
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Arceus_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Arceus"
+            },
+            "names": {
+               "en": "Arceus Bug",
+               "fr": "Arceus Insecte"
+            },
+            "types": [
+               "bug"
+            ],
+            "variant": "bug",
+            "derives": {
+               "from": [null],
+               "temporary": false
+            }
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Arceus_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Arceus"
+            },
+            "names": {
+               "en": "Arceus Ghost",
+               "fr": "Arceus Spectre"
+            },
+            "types": [
+               "ghost"
+            ],
+            "variant": "ghost",
+            "derives": {
+               "from": [null],
+               "temporary": false
+            }
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Arceus_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Arceus"
+            },
+            "names": {
+               "en": "Arceus Steel",
+               "fr": "Arceus Acier"
+            },
+            "types": [
+               "steel"
+            ],
+            "variant": "steel",
+            "derives": {
+               "from": [null],
+               "temporary": false
+            }
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Arceus_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Arceus"
+            },
+            "names": {
+               "en": "Arceus Fire",
+               "fr": "Arceus Feu"
+            },
+            "types": [
+               "fire"
+            ],
+            "variant": "fire",
+            "derives": {
+               "from": [null],
+               "temporary": false
+            }
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Arceus_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Arceus"
+            },
+            "names": {
+               "en": "Arceus Water",
+               "fr": "Arceus Eau"
+            },
+            "types": [
+               "water"
+            ],
+            "variant": "water",
+            "derives": {
+               "from": [null],
+               "temporary": false
+            }
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Arceus_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Arceus"
+            },
+            "names": {
+               "en": "Arceus Grass",
+               "fr": "Arceus Plante"
+            },
+            "types": [
+               "grass"
+            ],
+            "variant": "grass",
+            "derives": {
+               "from": [null],
+               "temporary": false
+            }
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Arceus_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Arceus"
+            },
+            "names": {
+               "en": "Arceus Electric",
+               "fr": "Arceus Électrik"
+            },
+            "types": [
+               "electric"
+            ],
+            "variant": "electric",
+            "derives": {
+               "from": [null],
+               "temporary": false
+            }
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Arceus_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Arceus"
+            },
+            "names": {
+               "en": "Arceus Psychic",
+               "fr": "Arceus Psy"
+            },
+            "types": [
+               "psychic"
+            ],
+            "variant": "psychic",
+            "derives": {
+               "from": [null],
+               "temporary": false
+            }
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Arceus_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Arceus"
+            },
+            "names": {
+               "en": "Arceus Ice",
+               "fr": "Arceus Glace"
+            },
+            "types": [
+               "ice"
+            ],
+            "variant": "ice",
+            "derives": {
+               "from": [null],
+               "temporary": false
+            }
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Arceus_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Arceus"
+            },
+            "names": {
+               "en": "Arceus Dragon",
+               "fr": "Arceus Dragon"
+            },
+            "types": [
+               "dragon"
+            ],
+            "variant": "dragon",
+            "derives": {
+               "from": [null],
+               "temporary": false
+            }
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Arceus_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Arceus"
+            },
+            "names": {
+               "en": "Arceus Dark",
+               "fr": "Arceus Ténèbres"
+            },
+            "types": [
+               "dark"
+            ],
+            "variant": "dark",
+            "derives": {
+               "from": [null],
+               "temporary": false
+            }
+         }
+      ],
+      "number": 493
+   },
+   {
+      "evolves_from": null,
+      "forms": [
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Pichu_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Pichu_Troiz%C3%A9pi"
+            },
+            "names": {
+               "en": "Pichu Spiky-eared",
+               "fr": "Pichu Troizépi"
+            },
+            "types": [
+               "electric"
+            ],
+            "variant": "spiky"
+         }
+      ],
+      "number": 172
+   }
+]
