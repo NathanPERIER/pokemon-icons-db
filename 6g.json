@@ -2177,6 +2177,10 @@
    },
    {
       "evolves_from": null,
+      "common_names": {
+         "en": "Zygarde",
+         "fr": "Zygarde"
+      },
       "forms": [
          {
             "links": {
@@ -2184,14 +2188,14 @@
                "pokepedia": "https://www.pokepedia.fr/Zygarde"
             },
             "names": {
-               "en": "Zygarde",
-               "fr": "Zygarde"
+               "en": "Zygarde 50% Forme",
+               "fr": "Zygarde Forme 50%"
             },
             "types": [
                "dragon",
                "ground"
             ],
-            "variant": null
+            "variant": "50pct"
          }
       ],
       "number": 718
