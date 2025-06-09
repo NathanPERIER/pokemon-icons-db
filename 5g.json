@@ -15,6 +15,7 @@
                "psychic",
                "fire"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -35,6 +36,7 @@
             "types": [
                "grass"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -55,6 +57,7 @@
             "types": [
                "grass"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -75,6 +78,7 @@
             "types": [
                "grass"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -95,6 +99,7 @@
             "types": [
                "fire"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -116,6 +121,7 @@
                "fire",
                "fighting"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -137,6 +143,7 @@
                "fire",
                "fighting"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -157,6 +164,7 @@
             "types": [
                "water"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -177,6 +185,7 @@
             "types": [
                "water"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -197,6 +206,7 @@
             "types": [
                "water"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -217,6 +227,7 @@
             "types": [
                "normal"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -237,6 +248,7 @@
             "types": [
                "normal"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -257,6 +269,7 @@
             "types": [
                "normal"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -277,6 +290,7 @@
             "types": [
                "normal"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -297,6 +311,7 @@
             "types": [
                "normal"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -317,6 +332,7 @@
             "types": [
                "dark"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -337,6 +353,7 @@
             "types": [
                "dark"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -357,6 +374,7 @@
             "types": [
                "grass"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -377,6 +395,7 @@
             "types": [
                "grass"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -397,6 +416,7 @@
             "types": [
                "fire"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -417,6 +437,7 @@
             "types": [
                "fire"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -437,6 +458,7 @@
             "types": [
                "water"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -457,6 +479,7 @@
             "types": [
                "water"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -477,6 +500,7 @@
             "types": [
                "psychic"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -497,6 +521,7 @@
             "types": [
                "psychic"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -518,6 +543,7 @@
                "normal",
                "flying"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -539,6 +565,7 @@
                "normal",
                "flying"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -560,6 +587,7 @@
                "normal",
                "flying"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -580,6 +608,7 @@
             "types": [
                "electric"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -600,6 +629,7 @@
             "types": [
                "electric"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -620,6 +650,7 @@
             "types": [
                "rock"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -640,6 +671,7 @@
             "types": [
                "rock"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -660,6 +692,7 @@
             "types": [
                "rock"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -681,6 +714,7 @@
                "psychic",
                "flying"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -702,6 +736,7 @@
                "psychic",
                "flying"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -722,6 +757,7 @@
             "types": [
                "ground"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -743,6 +779,7 @@
                "ground",
                "steel"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -763,6 +800,7 @@
             "types": [
                "normal"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -783,6 +821,7 @@
             "types": [
                "fighting"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -803,6 +842,7 @@
             "types": [
                "fighting"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -823,6 +863,7 @@
             "types": [
                "fighting"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -843,6 +884,7 @@
             "types": [
                "water"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -864,6 +906,7 @@
                "water",
                "ground"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -885,6 +928,7 @@
                "water",
                "ground"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -905,6 +949,7 @@
             "types": [
                "fighting"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -925,6 +970,7 @@
             "types": [
                "fighting"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -946,6 +992,7 @@
                "bug",
                "grass"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -967,6 +1014,7 @@
                "bug",
                "grass"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -988,6 +1036,7 @@
                "bug",
                "grass"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1009,6 +1058,7 @@
                "bug",
                "poison"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1030,6 +1080,7 @@
                "bug",
                "poison"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1051,6 +1102,7 @@
                "bug",
                "poison"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1072,6 +1124,7 @@
                "grass",
                "fairy"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1093,6 +1146,7 @@
                "grass",
                "fairy"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1113,6 +1167,7 @@
             "types": [
                "grass"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1133,6 +1188,7 @@
             "types": [
                "grass"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1157,6 +1213,7 @@
             "types": [
                "water"
             ],
+            "gen": 5,
             "variant": "red"
          },
          {
@@ -1171,6 +1228,7 @@
             "types": [
                "water"
             ],
+            "gen": 5,
             "variant": "blue"
          }
       ],
@@ -1192,6 +1250,7 @@
                "ground",
                "dark"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1213,6 +1272,7 @@
                "ground",
                "dark"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1234,6 +1294,7 @@
                "ground",
                "dark"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1254,6 +1315,7 @@
             "types": [
                "fire"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1278,6 +1340,7 @@
             "types": [
                "fire"
             ],
+            "gen": 5,
             "variant": "standard"
          },
          {
@@ -1293,6 +1356,7 @@
                "fire",
                "psychic"
             ],
+            "gen": 5,
             "variant": "zen",
             "derives": {
                "from": ["standard"],
@@ -1317,6 +1381,7 @@
             "types": [
                "grass"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1338,6 +1403,7 @@
                "bug",
                "rock"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1359,6 +1425,7 @@
                "bug",
                "rock"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1380,6 +1447,7 @@
                "dark",
                "fighting"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1401,6 +1469,7 @@
                "dark",
                "fighting"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1422,6 +1491,7 @@
                "psychic",
                "flying"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1442,6 +1512,7 @@
             "types": [
                "ghost"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1462,6 +1533,7 @@
             "types": [
                "ghost"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1483,6 +1555,7 @@
                "water",
                "rock"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1504,6 +1577,7 @@
                "water",
                "rock"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1525,6 +1599,7 @@
                "rock",
                "flying"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1546,6 +1621,7 @@
                "rock",
                "flying"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1566,6 +1642,7 @@
             "types": [
                "poison"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1586,6 +1663,7 @@
             "types": [
                "poison"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1606,6 +1684,7 @@
             "types": [
                "dark"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1626,6 +1705,7 @@
             "types": [
                "dark"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1646,6 +1726,7 @@
             "types": [
                "normal"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1666,6 +1747,7 @@
             "types": [
                "normal"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1686,6 +1768,7 @@
             "types": [
                "psychic"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1706,6 +1789,7 @@
             "types": [
                "psychic"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1726,6 +1810,7 @@
             "types": [
                "psychic"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1746,6 +1831,7 @@
             "types": [
                "psychic"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1766,6 +1852,7 @@
             "types": [
                "psychic"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1786,6 +1873,7 @@
             "types": [
                "psychic"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1807,6 +1895,7 @@
                "water",
                "flying"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1828,6 +1917,7 @@
                "water",
                "flying"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1848,6 +1938,7 @@
             "types": [
                "ice"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1868,6 +1959,7 @@
             "types": [
                "ice"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1888,6 +1980,7 @@
             "types": [
                "ice"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -1913,6 +2006,7 @@
                "normal",
                "grass"
             ],
+            "gen": 5,
             "variant": "spring"
          },
          {
@@ -1928,6 +2022,7 @@
                "normal",
                "grass"
             ],
+            "gen": 5,
             "variant": "summer"
          },
          {
@@ -1943,6 +2038,7 @@
                "normal",
                "grass"
             ],
+            "gen": 5,
             "variant": "autumn"
          },
          {
@@ -1958,6 +2054,7 @@
                "normal",
                "grass"
             ],
+            "gen": 5,
             "variant": "winter"
          }
       ],
@@ -1983,6 +2080,7 @@
                "normal",
                "grass"
             ],
+            "gen": 5,
             "variant": "spring"
          },
          {
@@ -1998,6 +2096,7 @@
                "normal",
                "grass"
             ],
+            "gen": 5,
             "variant": "summer"
          },
          {
@@ -2013,6 +2112,7 @@
                "normal",
                "grass"
             ],
+            "gen": 5,
             "variant": "autumn"
          },
          {
@@ -2028,6 +2128,7 @@
                "normal",
                "grass"
             ],
+            "gen": 5,
             "variant": "winter"
          }
       ],
@@ -2049,6 +2150,7 @@
                "electric",
                "flying"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2069,6 +2171,7 @@
             "types": [
                "bug"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2090,6 +2193,7 @@
                "bug",
                "steel"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2111,6 +2215,7 @@
                "grass",
                "poison"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2132,6 +2237,7 @@
                "grass",
                "poison"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2153,6 +2259,7 @@
                "water",
                "ghost"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2174,6 +2281,7 @@
                "water",
                "ghost"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2194,6 +2302,7 @@
             "types": [
                "water"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2215,6 +2324,7 @@
                "bug",
                "electric"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2236,6 +2346,7 @@
                "bug",
                "electric"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2257,6 +2368,7 @@
                "grass",
                "steel"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2278,6 +2390,7 @@
                "grass",
                "steel"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2298,6 +2411,7 @@
             "types": [
                "steel"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2318,6 +2432,7 @@
             "types": [
                "steel"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2338,6 +2453,7 @@
             "types": [
                "steel"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2358,6 +2474,7 @@
             "types": [
                "electric"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2378,6 +2495,7 @@
             "types": [
                "electric"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2398,6 +2516,7 @@
             "types": [
                "electric"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2418,6 +2537,7 @@
             "types": [
                "psychic"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2438,6 +2558,7 @@
             "types": [
                "psychic"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2459,6 +2580,7 @@
                "ghost",
                "fire"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2480,6 +2602,7 @@
                "ghost",
                "fire"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2501,6 +2624,7 @@
                "ghost",
                "fire"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2521,6 +2645,7 @@
             "types": [
                "dragon"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2541,6 +2666,7 @@
             "types": [
                "dragon"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2561,6 +2687,7 @@
             "types": [
                "dragon"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2581,6 +2708,7 @@
             "types": [
                "ice"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2601,6 +2729,7 @@
             "types": [
                "ice"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2621,6 +2750,7 @@
             "types": [
                "ice"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2641,6 +2771,7 @@
             "types": [
                "bug"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2661,6 +2792,7 @@
             "types": [
                "bug"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2682,6 +2814,7 @@
                "ground",
                "electric"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2702,6 +2835,7 @@
             "types": [
                "fighting"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2722,6 +2856,7 @@
             "types": [
                "fighting"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2742,6 +2877,7 @@
             "types": [
                "dragon"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2763,6 +2899,7 @@
                "ground",
                "ghost"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2784,6 +2921,7 @@
                "ground",
                "ghost"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2805,6 +2943,7 @@
                "dark",
                "steel"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2826,6 +2965,7 @@
                "dark",
                "steel"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2846,6 +2986,7 @@
             "types": [
                "normal"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2867,6 +3008,7 @@
                "normal",
                "flying"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2888,6 +3030,7 @@
                "normal",
                "flying"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2909,6 +3052,7 @@
                "dark",
                "flying"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2930,6 +3074,7 @@
                "dark",
                "flying"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2950,6 +3095,7 @@
             "types": [
                "fire"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2971,6 +3117,7 @@
                "bug",
                "steel"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -2992,6 +3139,7 @@
                "dark",
                "dragon"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -3013,6 +3161,7 @@
                "dark",
                "dragon"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -3034,6 +3183,7 @@
                "dark",
                "dragon"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -3055,6 +3205,7 @@
                "bug",
                "fire"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -3076,6 +3227,7 @@
                "bug",
                "fire"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -3097,6 +3249,7 @@
                "steel",
                "fighting"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -3118,6 +3271,7 @@
                "rock",
                "fighting"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -3139,6 +3293,7 @@
                "grass",
                "fighting"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -3163,6 +3318,7 @@
             "types": [
                "flying"
             ],
+            "gen": 5,
             "variant": "incarnate"
          },
          {
@@ -3177,6 +3333,7 @@
             "types": [
                "flying"
             ],
+            "gen": 5,
             "variant": "therian",
             "derives": {
                "from": ["incarnate"],
@@ -3206,6 +3363,7 @@
                "electric",
                "flying"
             ],
+            "gen": 5,
             "variant": "incarnate"
          },
          {
@@ -3221,6 +3379,7 @@
                "electric",
                "flying"
             ],
+            "gen": 5,
             "variant": "therian",
             "derives": {
                "from": ["incarnate"],
@@ -3246,6 +3405,7 @@
                "dragon",
                "fire"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -3267,6 +3427,7 @@
                "dragon",
                "electric"
             ],
+            "gen": 5,
             "variant": null
          }
       ],
@@ -3292,6 +3453,7 @@
                "ground",
                "flying"
             ],
+            "gen": 5,
             "variant": "incarnate"
          },
          {
@@ -3307,6 +3469,7 @@
                "ground",
                "flying"
             ],
+            "gen": 5,
             "variant": "therian",
             "derives": {
                "from": ["incarnate"],
@@ -3332,6 +3495,7 @@
                "dragon",
                "ice"
             ],
+            "gen": 5,
             "variant": null
          },
          {
@@ -3347,6 +3511,7 @@
                "dragon",
                "ice"
             ],
+            "gen": 5,
             "variant": "white",
             "derives": {
                "from": [null],
@@ -3366,6 +3531,7 @@
                "dragon",
                "ice"
             ],
+            "gen": 5,
             "variant": "black",
             "derives": {
                "from": [null],
@@ -3395,6 +3561,7 @@
                "water",
                "fighting"
             ],
+            "gen": 5,
             "variant": "ordinary"
          },
          {
@@ -3410,6 +3577,7 @@
                "water",
                "fighting"
             ],
+            "gen": 5,
             "variant": "resolute",
             "derives": {
                "from": ["ordinary"],
@@ -3439,6 +3607,7 @@
                "normal",
                "psychic"
             ],
+            "gen": 5,
             "variant": "aria"
          },
          {
@@ -3454,6 +3623,7 @@
                "normal",
                "fighting"
             ],
+            "gen": 5,
             "variant": "pirouette",
             "derives": {
                "from": ["aria"],
@@ -3479,6 +3649,7 @@
                "bug",
                "steel"
             ],
+            "gen": 5,
             "variant": null
          },
          {
@@ -3494,6 +3665,7 @@
                "bug",
                "steel"
             ],
+            "gen": 5,
             "variant": "douse",
             "derives": {
                "from": [null],
@@ -3513,6 +3685,7 @@
                "bug",
                "steel"
             ],
+            "gen": 5,
             "variant": "shock",
             "derives": {
                "from": [null],
@@ -3532,6 +3705,7 @@
                "bug",
                "steel"
             ],
+            "gen": 5,
             "variant": "burn",
             "derives": {
                "from": [null],
@@ -3551,6 +3725,7 @@
                "bug",
                "steel"
             ],
+            "gen": 5,
             "variant": "chill",
             "derives": {
                "from": [null],
