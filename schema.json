@@ -1,0 +1,191 @@
+{
+    "$id": "http://yourdomain.com/schemas/myschema.json",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Pokémon list",
+    "type": "array",
+    "items": {
+        "$ref": "#/$defs/group"
+    },
+    "$defs": {
+        "group": {
+            "description": "A group of forms for a given Pokémon",
+            "type": "object",
+            "properties": {
+                "number": {
+                    "description": "Identifier of the current group",
+                    "$ref": "#/$defs/pokemon_id"
+                },
+                "evolves_from": {
+                    "description": "Identifier of the group from which this one evolves",
+                    "anyOf": [
+                        { "type": "null" },
+                        { "$ref": "#/$defs/pokemon_id" }
+                    ],
+                    "default": null
+                },
+                "common_names": {
+                    "description": "Group names for variant-only groups",
+                    "$ref": "#/$defs/names"
+                },
+                "forms": {
+                    "description": "List of forms the Pokémon can be found in",
+                    "type": "array",
+                    "minItems": 1,
+                    "items": {
+                        "$ref": "#/$defs/form"
+                    }
+                }
+            },
+            "required": ["number", "forms"],
+            "additionalProperties": false
+        },
+        "form": {
+            "description": "A form for a given Pokémon",
+            "type": "object",
+            "properties": {
+                "names": {
+                    "description": "The form's names",
+                    "$ref": "#/$defs/names"
+                },
+                "links": {
+                    "description": "Wiki links for this form/Pokémon",
+                    "$ref": "#/$defs/wiki_links"
+                },
+                "types": {
+                    "description": "The types of the Pokémon in this form",
+                    "type": "array",
+                    "minItems": 1,
+                    "maxItems": 2,
+                    "items": {
+                        "$ref": "#/$defs/type"
+                    },
+                    "uniqueItems": true
+                },
+                "gen": {
+                    "description": "Generation in which the form was introduced",
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 9
+                },
+                "variant": {
+                    "description": "The variant associated with this form",
+                    "$ref": "#/$defs/variant_id",
+                    "default": null
+                },
+                "evolution_variant": {
+                    "description": "The non-default variant required to evolve in this form",
+                    "type": "string",
+                    "minLength": 1
+                },
+                "gender_variant": {
+                    "description": "Whether or not this form has a different appearence for males and females",
+                    "type": "boolean",
+                    "default": false
+                },
+                "derives": {
+                    "description": "Indicates that the current form derives from other forms of the same Pokémon, if present",
+                    "anyOf": [
+                        { "type": "null" },
+                        { "$ref": "#/$defs/derivation" }
+                    ],
+                    "default": null
+                }
+            },
+            "required": ["names", "links", "types", "gen"],
+            "additionalProperties": false
+        },
+        "derivation": {
+            "description": "Describes how a given form derives from other forms of the same Pokémon",
+            "type": "object",
+            "properties": {
+                "from": {
+                    "description": "Forms that can be transformed/derived into the current form",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/variant_id"
+                    },
+                    "uniqueItems": true
+                },
+                "temporary": {
+                    "description": "Whether or not the transformation is temporary (typically in the case of a battle form)",
+                    "type": "boolean"
+                }
+            },
+            "required": ["from", "temporary"],
+            "additionalProperties": false
+        },
+        "pokemon_id": {
+            "type": "integer",
+            "minimum": 1
+        },
+        "names": {
+            "description": "The names of a Pokémon in different languages",
+            "type": "object",
+            "properties": {
+                "en": {
+                    "description": "The English name",
+                    "type": "string",
+                    "minLength": 1
+                },
+                "fr": {
+                    "description": "The French name",
+                    "type": "string",
+                    "minLength": 1
+                }
+            },
+            "required": ["en", "fr"],
+            "additionalProperties": false
+        },
+        "wiki_links": {
+            "description": "The links for a Pokémon entry in various wikis",
+            "type": "object",
+            "properties": {
+                "bulbapedia": {
+                    "description": "The Bulbapedia link",
+                    "type": "string",
+                    "minLength": 1
+                },
+                "pokepedia": {
+                    "description": "The Poképédia link",
+                    "type": "string",
+                    "minLength": 1
+                }
+            },
+            "required": ["bulbapedia", "pokepedia"],
+            "additionalProperties": false
+        },
+        "type": {
+            "description": "A Pokémon type identifier",
+            "type": "string",
+            "enum": [
+                "normal",
+                "fighting",
+                "flying",
+                "poison",
+                "ground",
+                "rock",
+                "bug",
+                "ghost",
+                "steel",
+                "fire",
+                "water",
+                "grass",
+                "electric",
+                "psychic",
+                "ice",
+                "dragon",
+                "dark",
+                "fairy"
+            ]
+        },
+        "variant_id": {
+            "anyOf": [
+                { "type": "null" },
+                {
+                    "type": "string",
+                    "minLength": 1
+                }
+            ]
+        }
+    }
+}
