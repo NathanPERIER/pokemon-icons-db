@@ -3,3 +3,7 @@
 *.bak
 *.tmp
 *.swp
+
+# Python
+/venv
+__pycache__
