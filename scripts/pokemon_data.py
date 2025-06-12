@@ -31,7 +31,7 @@ class pkmn_form:
         self.types: list[str] = data['types']
         self.gen: int = data['gen']
         self.variant: str | None = data['variant'] if 'variant' in data else None
-        self.evolution_variant: str | None = data['evolution_variant'] if 'evolution_variant' in data else None
+        self.evolution_variants: list[str] | None = data['evolution_variants'] if 'evolution_variants' in data else None
         self.gender_variant: bool = data['gender_variant'] if 'gender_variant' in data else False
         self.derives: pkmn_derivation | None = None
         if 'derives' in data and data['derives'] is not None :

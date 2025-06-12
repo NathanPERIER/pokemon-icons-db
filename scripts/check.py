@@ -73,19 +73,19 @@ def main() -> int :
             else:
                 logger.error(f"Group {group.number} evolves from unknown group {group.evolves_from}")
         for form in group.forms :
-            # TODO use a list here
-            if form.evolution_variant is not None :
+            if form.evolution_variants is not None :
                 if form.derives is not None :
-                    logger.error(f"Found evolution variant {form.evolution_variant} for derived group")
+                    logger.error(f"Found evolution variant {form.evolution_variants} for derived group")
                 if group.evolves_from is None :
-                    logger.error(f"Found evolution variant {form.evolution_variant} for non-evolving group")
+                    logger.error(f"Found evolution variant {form.evolution_variants} for non-evolving group")
                     continue
                 if pre_evolution is not None :
-                    pre_form = pre_evolution.find_form(form.evolution_variant)
-                    if pre_form is None :
-                        logger.error(f"Evolution variant {form.evolution_variant} does not exist in pre-evolution group {pre_evolution.number}")
-                    if pre_form.derives is not None :
-                        logger.error(f"Evolution variant {form.evolution_variant} in pre-evolution group {pre_evolution.number} refers to a derived form")
+                    for evolution_variants in form.evolution_variants :
+                        pre_form = pre_evolution.find_form(evolution_variants)
+                        if pre_form is None :
+                            logger.error(f"Evolution variant {evolution_variants} does not exist in pre-evolution group {pre_evolution.number}")
+                        if pre_form.derives is not None :
+                            logger.error(f"Evolution variant {evolution_variants} in pre-evolution group {pre_evolution.number} refers to a derived form")
             elif pre_evolution is not None :
                 pre_form = pre_evolution.find_form(form.variant)
                 if pre_form is None:

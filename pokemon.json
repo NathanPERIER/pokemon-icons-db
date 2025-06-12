@@ -11666,7 +11666,12 @@
                "flying"
             ],
             "gen": 4,
-            "variant": null
+            "variant": null,
+            "evolution_variants": [
+               "plant",
+               "sandy",
+               "trash"
+            ]
          }
       ],
       "number": 414
@@ -24816,7 +24821,7 @@
             ],
             "gen": 8,
             "variant": null,
-            "evolution_variant": "galar"
+            "evolution_variants": ["galar"]
          }
       ],
       "number": 862
@@ -24838,7 +24843,7 @@
             ],
             "gen": 8,
             "variant": null,
-            "evolution_variant": "galar"
+            "evolution_variants": ["galar"]
          }
       ],
       "number": 863
@@ -24860,7 +24865,7 @@
             ],
             "gen": 8,
             "variant": null,
-            "evolution_variant": "galar"
+            "evolution_variants": ["galar"]
          }
       ],
       "number": 864
@@ -24882,7 +24887,7 @@
             ],
             "gen": 8,
             "variant": null,
-            "evolution_variant": "galar"
+            "evolution_variants": ["galar"]
          }
       ],
       "number": 865
@@ -24905,7 +24910,7 @@
             ],
             "gen": 8,
             "variant": null,
-            "evolution_variant": "galar"
+            "evolution_variants": ["galar"]
          }
       ],
       "number": 866
@@ -24928,7 +24933,7 @@
             ],
             "gen": 8,
             "variant": null,
-            "evolution_variant": "galar"
+            "evolution_variants": ["galar"]
          }
       ],
       "number": 867
@@ -26147,7 +26152,7 @@
             "gen": 8,
             "variant": null,
             "gender_variant": true,
-            "evolution_variant": "white"
+            "evolution_variants": ["white"]
          }
       ],
       "number": 902
@@ -26170,7 +26175,7 @@
             ],
             "gen": 8,
             "variant": null,
-            "evolution_variant": "hisui"
+            "evolution_variants": ["hisui"]
          }
       ],
       "number": 903
@@ -26193,7 +26198,7 @@
             ],
             "gen": 8,
             "variant": null,
-            "evolution_variant": "hisui"
+            "evolution_variants": ["hisui"]
          }
       ],
       "number": 904
@@ -27986,7 +27991,7 @@
             ],
             "gen": 9,
             "variant": null,
-            "evolution_variant": "paldea"
+            "evolution_variants": ["paldea"]
          }
       ],
       "number": 980
@@ -28462,7 +28467,11 @@
                "ghost"
             ],
             "gen": 9,
-            "variant": null
+            "variant": null,
+            "evolution_variants": [
+               "chest",
+               "roaming"
+            ]
          }
       ],
       "number": 1000
@@ -28773,7 +28782,7 @@
             ],
             "gen": 9,
             "variant": "unremarkable",
-            "evolution_variant": "counterfeit"
+            "evolution_variants": ["counterfeit"]
          },
          {
             "links": {
@@ -28790,7 +28799,7 @@
             ],
             "gen": 9,
             "variant": "masterpiece",
-            "evolution_variant": "artisan"
+            "evolution_variants": ["artisan"]
          }
       ],
       "number": 1013

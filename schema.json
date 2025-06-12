@@ -72,10 +72,15 @@
                     "$ref": "#/$defs/variant_id",
                     "default": null
                 },
-                "evolution_variant": {
-                    "description": "The non-default variant required to evolve in this form",
-                    "type": "string",
-                    "minLength": 1
+                "evolution_variants": {
+                    "description": "The non-default variant(s) required to evolve in this form",
+                    "type": "array",
+                    "minItems": 1,
+                    "items": {
+                        "type": "string",
+                        "minLength": 1
+                    },
+                    "uniqueItems": true
                 },
                 "gender_variant": {
                     "description": "Whether or not this form has a different appearence for males and females",
