@@ -7,6 +7,8 @@ This project was made possible thanks to the information compiled by the [Pokép
 
 The vast majority of icons from gen 1 to 8 was obtained thanks to the [PokéSprite project](https://github.com/msikma/pokesprite). These include official sprites for all Pokémons, as well as community-made sprites for alternate forms and shiny forms.
 
+Icons for generation 9 were obtained from a [resource pack](https://www.pokecommunity.com/threads/generation-9-resource-pack-v21-1.527398/) compiled by the user Caruban on PokéCommunity. The original artists are : Vent, Katten, leParagon, Cesare_CBass, AlexandreV2.0, Carmanekko, GRAFAIAIMX.
+
 The icon sprites are © Nintendo/Creatures Inc./GAME FREAK Inc.
 
 ## Scripts
