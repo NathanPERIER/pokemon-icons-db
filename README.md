@@ -5,6 +5,10 @@
 
 This project was made possible thanks to the information compiled by the [Poképédia](https://www.pokepedia.fr) and [Bulbapedia](https://bulbapedia.bulbagarden.net/) wikis.
 
+The vast majority of icons from gen 1 to 8 was obtained thanks to the [PokéSprite project](https://github.com/msikma/pokesprite). These include official sprites for all Pokémons, as well as community-made sprites for alternate forms and shiny forms.
+
+The icon sprites are © Nintendo/Creatures Inc./GAME FREAK Inc.
+
 ## Scripts
 
 For conveniency, this repository contains a [Makefile](./Makefile) that allows running example scripts. The following commands are available :

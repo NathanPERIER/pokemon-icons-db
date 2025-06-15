@@ -10,3 +10,6 @@ __pycache__
 
 # Script outputs
 /diagrams
+
+# Script inputs (dev)
+/pokesprite
