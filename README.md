@@ -5,6 +5,15 @@
 
 This project was made possible thanks to the information compiled by the [Poképédia](https://www.pokepedia.fr) and [Bulbapedia](https://bulbapedia.bulbagarden.net/) wikis.
 
+## Scripts
+
+For conveniency, this repository contains a [Makefile](./Makefile) that allows running example scripts. The following commands are available :
+
+- `venv`: Performs the setup of the Python virtual environment for running scripts, must only be called once at setup.
+- `pip`: Installs and/or updates pip packages in the venv.
+- `check`: Runs the [check.py](./scripts/check.py) script, verifying the [JSON schema](./schema.json) and other constraints on the JSON data. Also checks that all sprites are available.
+- `mermaid`: Runs the [generate_mermaid.py](./scripts/generate_mermaid.py) script, which generates a Mermaid diagram containing all Pokémon forms. Sadly, it appears to be too large to display properly...
+
 ## Data structure
 
 The provided JSON contains information about all known Pokémons until generation 9 and the various forms they can take.
