@@ -22,7 +22,7 @@ class pkmn_links:
 class pkmn_derivation:
     def __init__(self, data):
         self.from_variants: list[str | None] = data['from']
-        self.temporary: bool = data['temporary']
+        self.battle_only: bool = data['battle_only']
 
 class pkmn_form:
     def __init__(self, data):
@@ -38,7 +38,7 @@ class pkmn_form:
             self.derives = pkmn_derivation(data['derives'])
     
     def is_temporary(self) -> bool :
-        return self.derives is not None and self.derives.temporary
+        return self.derives is not None and self.derives.battle_only
 
 class pkmn_group:
     def __init__(self, data):

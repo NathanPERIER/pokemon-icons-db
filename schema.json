@@ -111,12 +111,12 @@
                     },
                     "uniqueItems": true
                 },
-                "temporary": {
-                    "description": "Whether or not the transformation is temporary (typically in the case of a battle form)",
+                "battle_only": {
+                    "description": "Whether or not the transformation is limited to the scope of a battle",
                     "type": "boolean"
                 }
             },
-            "required": ["from", "temporary"],
+            "required": ["from", "battle_only"],
             "additionalProperties": false
         },
         "pokemon_id": {

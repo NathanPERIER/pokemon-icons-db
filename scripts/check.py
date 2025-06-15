@@ -63,7 +63,7 @@ def main() -> int :
             if group.forms[0].derives is not None :
                 logger.error(f"First form in group (with variant {group.forms[0].variant}) cannot derive other forms")
             if group.forms[0].is_temporary() :
-                logger.error(f"First form in group (with variant {group.forms[0].variant}) cannot be temporary")
+                logger.error(f"First form in group (with variant {group.forms[0].variant}) cannot be battle-only")
     for group in pokemon_data:
         logger.start_group(group.number)
         pre_evolution: pkmn_group | None = None
@@ -118,7 +118,7 @@ def main() -> int :
                             logger.error(f"Variant {form.variant} derives from non-existing variant {derived_variant}")
                         continue
                     if derived_form.is_temporary() and not form.is_temporary() :
-                        logger.error(f"Non-temporary variant {form.variant} derives from temporary variant {derived_variant}")
+                        logger.error(f"Permanent variant {form.variant} derives from battle-only variant {derived_variant}")
 
     if logger.ok() :
         print(f"Checked {len(pokemon_data)} groups => all OK")
