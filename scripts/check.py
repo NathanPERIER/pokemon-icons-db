@@ -1,7 +1,8 @@
 
+import os
 import sys
 
-from pokemon_data import load_groups, pkmn_group
+from pokemon_data import load_groups, pkmn_group, pkmn_form
 
 
 class error_logger :
@@ -23,6 +24,27 @@ class error_logger :
     
     def ok(self) -> bool :
         return not self.has_error
+
+
+def check_sprite_files(filename: str, logger: error_logger):
+    common_icon_path = os.path.join('sprites/common/icons', filename)
+    shiny_icon_path = os.path.join('sprites/shiny/icons', filename)
+    if not os.path.isfile(common_icon_path) :
+        logger.error(f"Common icon not found in {common_icon_path}")
+    if not os.path.isfile(shiny_icon_path) :
+        logger.error(f"Shiny icon not found in {shiny_icon_path}")
+
+def check_sprites(group: pkmn_group, form: pkmn_form, logger: error_logger):
+    group_id = f"{group.number:04d}"
+    if form.gender_variant :
+        sprite_files = [f"{group_id}_f", f"{group_id}_m"]
+    else:
+        sprite_files = [f"{group_id}"]
+    if form.variant is not None :
+        sprite_files = [f"{x}_{form.variant}" for x in sprite_files]
+    sprite_files = [f"{x}.png" for x in sprite_files]
+    for filename in sprite_files:
+        check_sprite_files(filename, logger)
 
 
 def main() -> int :
@@ -73,6 +95,7 @@ def main() -> int :
             else:
                 logger.error(f"Group {group.number} evolves from unknown group {group.evolves_from}")
         for form in group.forms :
+            check_sprites(group, form, logger)
             if form.evolution_variants is not None :
                 if form.derives is not None :
                     logger.error(f"Found evolution variant {form.evolution_variants} for derived group")
