@@ -24990,14 +24990,14 @@
                "pokepedia": "https://www.pokepedia.fr/Charmilly"
             },
             "names": {
-               "en": "Alcremie Vanilla Cream",
-               "fr": "Charmilly Lait Vanille"
+               "en": "Alcremie Vanilla Cream Strawberry Sweet",
+               "fr": "Charmilly Lait Vanille Fraise en Sucre"
             },
             "types": [
                "fairy"
             ],
             "gen": 8,
-            "variant": "vanilla"
+            "variant": "vanilla-strawberry"
          },
          {
             "links": {
@@ -25005,14 +25005,14 @@
                "pokepedia": "https://www.pokepedia.fr/Charmilly"
             },
             "names": {
-               "en": "Alcremie Ruby Cream",
-               "fr": "Charmilly Lait Ruby"
+               "en": "Alcremie Vanilla Cream Berry Sweet",
+               "fr": "Charmilly Lait Vanille Baie en Sucre"
             },
             "types": [
                "fairy"
             ],
             "gen": 8,
-            "variant": "ruby"
+            "variant": "vanilla-berry"
          },
          {
             "links": {
@@ -25020,14 +25020,14 @@
                "pokepedia": "https://www.pokepedia.fr/Charmilly"
             },
             "names": {
-               "en": "Alcremie Matcha Cream",
-               "fr": "Charmilly Lait Matcha"
+               "en": "Alcremie Vanilla Cream Love Sweet",
+               "fr": "Charmilly Lait Vanille Cœur en Sucre"
             },
             "types": [
                "fairy"
             ],
             "gen": 8,
-            "variant": "matcha"
+            "variant": "vanilla-love"
          },
          {
             "links": {
@@ -25035,14 +25035,14 @@
                "pokepedia": "https://www.pokepedia.fr/Charmilly"
             },
             "names": {
-               "en": "Alcremie Mint Cream",
-               "fr": "Charmilly Lait Menthe"
+               "en": "Alcremie Vanilla Cream Star Sweet",
+               "fr": "Charmilly Lait Vanille Étoile en Sucre"
             },
             "types": [
                "fairy"
             ],
             "gen": 8,
-            "variant": "mint"
+            "variant": "vanilla-star"
          },
          {
             "links": {
@@ -25050,14 +25050,14 @@
                "pokepedia": "https://www.pokepedia.fr/Charmilly"
             },
             "names": {
-               "en": "Alcremie Lemon Cream",
-               "fr": "Charmilly Lait Citron"
+               "en": "Alcremie Vanilla Cream Clover Sweet",
+               "fr": "Charmilly Lait Vanille Trèfle en Sucre"
             },
             "types": [
                "fairy"
             ],
             "gen": 8,
-            "variant": "lemon"
+            "variant": "vanilla-clover"
          },
          {
             "links": {
@@ -25065,14 +25065,14 @@
                "pokepedia": "https://www.pokepedia.fr/Charmilly"
             },
             "names": {
-               "en": "Alcremie Salted Cream",
-               "fr": "Charmilly Lait Salé"
+               "en": "Alcremie Vanilla Cream Flower Sweet",
+               "fr": "Charmilly Lait Vanille Fleur en Sucre"
             },
             "types": [
                "fairy"
             ],
             "gen": 8,
-            "variant": "salted"
+            "variant": "vanilla-flower"
          },
          {
             "links": {
@@ -25080,14 +25080,14 @@
                "pokepedia": "https://www.pokepedia.fr/Charmilly"
             },
             "names": {
-               "en": "Alcremie Ruby Swirl",
-               "fr": "Charmilly Mélange Ruby"
+               "en": "Alcremie Vanilla Cream Ribbon Sweet",
+               "fr": "Charmilly Lait Vanille Ruban en Sucre"
             },
             "types": [
                "fairy"
             ],
             "gen": 8,
-            "variant": "rubyswirl"
+            "variant": "vanilla-ribbon"
          },
          {
             "links": {
@@ -25095,14 +25095,14 @@
                "pokepedia": "https://www.pokepedia.fr/Charmilly"
             },
             "names": {
-               "en": "Alcremie Caramel Swirl",
-               "fr": "Charmilly Mélange Caramel"
+               "en": "Alcremie Ruby Cream Strawberry Sweet",
+               "fr": "Charmilly Lait Ruby Fraise en Sucre"
             },
             "types": [
                "fairy"
             ],
             "gen": 8,
-            "variant": "caramelswirl"
+            "variant": "ruby-strawberry"
          },
          {
             "links": {
@@ -25110,14 +25110,824 @@
                "pokepedia": "https://www.pokepedia.fr/Charmilly"
             },
             "names": {
-               "en": "Alcremie Rainbow Swirl",
-               "fr": "Charmilly Mélange Tricolore"
+               "en": "Alcremie Ruby Cream Berry Sweet",
+               "fr": "Charmilly Lait Ruby Baie en Sucre"
             },
             "types": [
                "fairy"
             ],
             "gen": 8,
-            "variant": "rainbow"
+            "variant": "ruby-berry"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Ruby Cream Love Sweet",
+               "fr": "Charmilly Lait Ruby Cœur en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "ruby-love"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Ruby Cream Star Sweet",
+               "fr": "Charmilly Lait Ruby Étoile en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "ruby-star"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Ruby Cream Clover Sweet",
+               "fr": "Charmilly Lait Ruby Trèfle en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "ruby-clover"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Ruby Cream Flower Sweet",
+               "fr": "Charmilly Lait Ruby Fleur en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "ruby-flower"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Ruby Cream Ribbon Sweet",
+               "fr": "Charmilly Lait Ruby Ruban en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "ruby-ribbon"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Matcha Cream Strawberry Sweet",
+               "fr": "Charmilly Lait Matcha Fraise en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "matcha-strawberry"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Matcha Cream Berry Sweet",
+               "fr": "Charmilly Lait Matcha Baie en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "matcha-berry"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Matcha Cream Love Sweet",
+               "fr": "Charmilly Lait Matcha Cœur en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "matcha-love"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Matcha Cream Star Sweet",
+               "fr": "Charmilly Lait Matcha Étoile en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "matcha-star"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Matcha Cream Clover Sweet",
+               "fr": "Charmilly Lait Matcha Trèfle en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "matcha-clover"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Matcha Cream Flower Sweet",
+               "fr": "Charmilly Lait Matcha Fleur en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "matcha-flower"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Matcha Cream Ribbon Sweet",
+               "fr": "Charmilly Lait Matcha Ruban en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "matcha-ribbon"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Mint Cream Strawberry Sweet",
+               "fr": "Charmilly Lait Menthe Fraise en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "mint-strawberry"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Mint Cream Berry Sweet",
+               "fr": "Charmilly Lait Menthe Baie en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "mint-berry"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Mint Cream Love Sweet",
+               "fr": "Charmilly Lait Menthe Cœur en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "mint-love"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Mint Cream Star Sweet",
+               "fr": "Charmilly Lait Menthe Étoile en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "mint-star"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Mint Cream Clover Sweet",
+               "fr": "Charmilly Lait Menthe Trèfle en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "mint-clover"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Mint Cream Flower Sweet",
+               "fr": "Charmilly Lait Menthe Fleur en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "mint-flower"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Mint Cream Ribbon Sweet",
+               "fr": "Charmilly Lait Menthe Ruban en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "mint-ribbon"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Lemon Cream Strawberry Sweet",
+               "fr": "Charmilly Lait Citron Fraise en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "lemon-strawberry"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Lemon Cream Berry Sweet",
+               "fr": "Charmilly Lait Citron Baie en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "lemon-berry"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Lemon Cream Love Sweet",
+               "fr": "Charmilly Lait Citron Cœur en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "lemon-love"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Lemon Cream Star Sweet",
+               "fr": "Charmilly Lait Citron Étoile en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "lemon-star"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Lemon Cream Clover Sweet",
+               "fr": "Charmilly Lait Citron Trèfle en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "lemon-clover"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Lemon Cream Flower Sweet",
+               "fr": "Charmilly Lait Citron Fleur en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "lemon-flower"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Lemon Cream Ribbon Sweet",
+               "fr": "Charmilly Lait Citron Ruban en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "lemon-ribbon"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Salted Cream Strawberry Sweet",
+               "fr": "Charmilly Lait Salé Fraise en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "salted-strawberry"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Salted Cream Berry Sweet",
+               "fr": "Charmilly Lait Salé Baie en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "salted-berry"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Salted Cream Love Sweet",
+               "fr": "Charmilly Lait Salé Cœur en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "salted-love"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Salted Cream Star Sweet",
+               "fr": "Charmilly Lait Salé Étoile en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "salted-star"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Salted Cream Clover Sweet",
+               "fr": "Charmilly Lait Salé Trèfle en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "salted-clover"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Salted Cream Flower Sweet",
+               "fr": "Charmilly Lait Salé Fleur en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "salted-flower"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Salted Cream Ribbon Sweet",
+               "fr": "Charmilly Lait Salé Ruban en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "salted-ribbon"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Ruby Swirl Strawberry Sweet",
+               "fr": "Charmilly Mélange Ruby Fraise en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "rubyswirl-strawberry"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Ruby Swirl Berry Sweet",
+               "fr": "Charmilly Mélange Ruby Baie en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "rubyswirl-berry"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Ruby Swirl Love Sweet",
+               "fr": "Charmilly Mélange Ruby Cœur en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "rubyswirl-love"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Ruby Swirl Star Sweet",
+               "fr": "Charmilly Mélange Ruby Étoile en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "rubyswirl-star"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Ruby Swirl Clover Sweet",
+               "fr": "Charmilly Mélange Ruby Trèfle en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "rubyswirl-clover"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Ruby Swirl Flower Sweet",
+               "fr": "Charmilly Mélange Ruby Fleur en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "rubyswirl-flower"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Ruby Swirl Ribbon Sweet",
+               "fr": "Charmilly Mélange Ruby Ruban en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "rubyswirl-ribbon"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Caramel Swirl Strawberry Sweet",
+               "fr": "Charmilly Mélange Caramel Fraise en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "caramelswirl-strawberry"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Caramel Swirl Berry Sweet",
+               "fr": "Charmilly Mélange Caramel Baie en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "caramelswirl-berry"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Caramel Swirl Love Sweet",
+               "fr": "Charmilly Mélange Caramel Cœur en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "caramelswirl-love"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Caramel Swirl Star Sweet",
+               "fr": "Charmilly Mélange Caramel Étoile en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "caramelswirl-star"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Caramel Swirl Clover Sweet",
+               "fr": "Charmilly Mélange Caramel Trèfle en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "caramelswirl-clover"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Caramel Swirl Flower Sweet",
+               "fr": "Charmilly Mélange Caramel Fleur en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "caramelswirl-flower"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Caramel Swirl Ribbon Sweet",
+               "fr": "Charmilly Mélange Caramel Ruban en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "caramelswirl-ribbon"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Rainbow Swirl Strawberry Sweet",
+               "fr": "Charmilly Mélange Tricolore Fraise en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "rainbow-strawberry"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Rainbow Swirl Berry Sweet",
+               "fr": "Charmilly Mélange Tricolore Baie en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "rainbow-berry"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Rainbow Swirl Love Sweet",
+               "fr": "Charmilly Mélange Tricolore Cœur en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "rainbow-love"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Rainbow Swirl Star Sweet",
+               "fr": "Charmilly Mélange Tricolore Étoile en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "rainbow-star"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Rainbow Swirl Clover Sweet",
+               "fr": "Charmilly Mélange Tricolore Trèfle en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "rainbow-clover"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Rainbow Swirl Flower Sweet",
+               "fr": "Charmilly Mélange Tricolore Fleur en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "rainbow-flower"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/Charmilly"
+            },
+            "names": {
+               "en": "Alcremie Rainbow Swirl Ribbon Sweet",
+               "fr": "Charmilly Mélange Tricolore Ruban en Sucre"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 8,
+            "variant": "rainbow-ribbon"
          },
          {
             "links": {
@@ -25135,15 +25945,69 @@
             "variant": "gigantamax",
             "derives": {
                "from": [
-                  "vanilla",
-                  "ruby",
-                  "matcha",
-                  "mint",
-                  "lemon",
-                  "salted",
-                  "rubyswirl",
-                  "caramelswirl",
-                  "rainbow"
+                  "vanilla-strawberry",
+                  "vanilla-berry",
+                  "vanilla-love",
+                  "vanilla-star",
+                  "vanilla-clover",
+                  "vanilla-flower",
+                  "vanilla-ribbon",
+                  "ruby-strawberry",
+                  "ruby-berry",
+                  "ruby-love",
+                  "ruby-star",
+                  "ruby-clover",
+                  "ruby-flower",
+                  "ruby-ribbon",
+                  "matcha-strawberry",
+                  "matcha-berry",
+                  "matcha-love",
+                  "matcha-star",
+                  "matcha-clover",
+                  "matcha-flower",
+                  "matcha-ribbon",
+                  "mint-strawberry",
+                  "mint-berry",
+                  "mint-love",
+                  "mint-star",
+                  "mint-clover",
+                  "mint-flower",
+                  "mint-ribbon",
+                  "lemon-strawberry",
+                  "lemon-berry",
+                  "lemon-love",
+                  "lemon-star",
+                  "lemon-clover",
+                  "lemon-flower",
+                  "lemon-ribbon",
+                  "salted-strawberry",
+                  "salted-berry",
+                  "salted-love",
+                  "salted-star",
+                  "salted-clover",
+                  "salted-flower",
+                  "salted-ribbon",
+                  "rubyswirl-strawberry",
+                  "rubyswirl-berry",
+                  "rubyswirl-love",
+                  "rubyswirl-star",
+                  "rubyswirl-clover",
+                  "rubyswirl-flower",
+                  "rubyswirl-ribbon",
+                  "caramelswirl-strawberry",
+                  "caramelswirl-berry",
+                  "caramelswirl-love",
+                  "caramelswirl-star",
+                  "caramelswirl-clover",
+                  "caramelswirl-flower",
+                  "caramelswirl-ribbon",
+                  "rainbow-strawberry",
+                  "rainbow-berry",
+                  "rainbow-love",
+                  "rainbow-star",
+                  "rainbow-clover",
+                  "rainbow-flower",
+                  "rainbow-ribbon"
                ],
                "battle_only": true
             }
