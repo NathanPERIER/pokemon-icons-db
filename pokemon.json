@@ -782,7 +782,8 @@
                "electric"
             ],
             "gen": 1,
-            "variant": null
+            "variant": null,
+            "gender_variant": true
          },
          {
             "links": {
@@ -917,7 +918,8 @@
                "electric"
             ],
             "gen": 7,
-            "variant": "cap-original"
+            "variant": "cap-original",
+            "gender_variant": true
          },
          {
             "links": {
@@ -932,7 +934,8 @@
                "electric"
             ],
             "gen": 7,
-            "variant": "cap-hoenn"
+            "variant": "cap-hoenn",
+            "gender_variant": true
          },
          {
             "links": {
@@ -947,7 +950,8 @@
                "electric"
             ],
             "gen": 7,
-            "variant": "cap-sinnoh"
+            "variant": "cap-sinnoh",
+            "gender_variant": true
          },
          {
             "links": {
@@ -962,7 +966,8 @@
                "electric"
             ],
             "gen": 7,
-            "variant": "cap-unova"
+            "variant": "cap-unova",
+            "gender_variant": true
          },
          {
             "links": {
@@ -977,7 +982,8 @@
                "electric"
             ],
             "gen": 7,
-            "variant": "cap-kalos"
+            "variant": "cap-kalos",
+            "gender_variant": true
          },
          {
             "links": {
@@ -992,7 +998,8 @@
                "electric"
             ],
             "gen": 7,
-            "variant": "cap-alola"
+            "variant": "cap-alola",
+            "gender_variant": true
          },
          {
             "links": {
@@ -1007,7 +1014,8 @@
                "electric"
             ],
             "gen": 7,
-            "variant": "cap-partner"
+            "variant": "cap-partner",
+            "gender_variant": true
          },
          {
             "links": {
@@ -1022,7 +1030,8 @@
                "electric"
             ],
             "gen": 7,
-            "variant": "partner"
+            "variant": "partner",
+            "gender_variant": true
          },
          {
             "links": {
@@ -4096,7 +4105,8 @@
                "normal"
             ],
             "gen": 1,
-            "variant": null
+            "variant": null,
+            "gender_variant": true
          },
          {
             "links": {
@@ -4111,7 +4121,8 @@
                "normal"
             ],
             "gen": 7,
-            "variant": "partner"
+            "variant": "partner",
+            "gender_variant": true
          },
          {
             "links": {
@@ -6241,7 +6252,8 @@
                "psychic"
             ],
             "gen": 2,
-            "variant": null
+            "variant": null,
+            "gender_variant": true
          }
       ],
       "number": 202
@@ -12553,7 +12565,8 @@
                "ground"
             ],
             "gen": 4,
-            "variant": null
+            "variant": null,
+            "gender_variant": true
          }
       ],
       "number": 449
@@ -12574,7 +12587,8 @@
                "ground"
             ],
             "gen": 4,
-            "variant": null
+            "variant": null,
+            "gender_variant": true
          }
       ],
       "number": 450
@@ -14716,7 +14730,8 @@
                "flying"
             ],
             "gen": 5,
-            "variant": null
+            "variant": null,
+            "gender_variant": true
          }
       ],
       "number": 521
@@ -16564,7 +16579,8 @@
                "ghost"
             ],
             "gen": 5,
-            "variant": null
+            "variant": null,
+            "gender_variant": true
          }
       ],
       "number": 592
@@ -16586,7 +16602,8 @@
                "ghost"
             ],
             "gen": 5,
-            "variant": null
+            "variant": null,
+            "gender_variant": true
          }
       ],
       "number": 593
@@ -18821,7 +18838,8 @@
                "normal"
             ],
             "gen": 6,
-            "variant": null
+            "variant": null,
+            "gender_variant": true
          }
       ],
       "number": 668
