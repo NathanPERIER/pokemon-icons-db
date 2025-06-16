@@ -16,6 +16,9 @@ pip:
 check:
 	${VENV_PYTHON} scripts/check.py
 
+spritesheets:
+	${VENV_PYTHON} scripts/generate_spritesheets.py
+
 mermaid:
 	${VENV_PYTHON} scripts/generate_mermaid.py
 

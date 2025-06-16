@@ -18,6 +18,7 @@ For conveniency, this repository contains a [Makefile](./Makefile) that allows r
 - `venv`: Performs the setup of the Python virtual environment for running scripts, must only be called once at setup.
 - `pip`: Installs and/or updates pip packages in the venv.
 - `check`: Runs the [check.py](./scripts/check.py) script, verifying the [JSON schema](./schema.json) and other constraints on the JSON data. Also checks that all sprites are available.
+- `spritesheets`: Runs the [generate_spritesheets.py](./scripts/generate_spritesheets.py) script, which generates sprite sheets and CSS styles to access the individual sprites.
 - `mermaid`: Runs the [generate_mermaid.py](./scripts/generate_mermaid.py) script, which generates a Mermaid diagram containing all Pokémon forms. Sadly, it appears to be too large to display properly...
 
 ## Data structure
