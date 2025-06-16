@@ -5,7 +5,7 @@ import sys
 from pokemon_data import load_groups
 
 
-dest_dir = 'diagrams'
+dest_dir = './generated/diagrams'
 
 
 class state_sub_node:
@@ -104,10 +104,7 @@ def main() -> int :
                         deriv_graph_id = node.sub_nodes[derivation_variant].graph_id
                         node.intra_connections.append((deriv_graph_id, form_graph_id))
 
-    try:
-        os.mkdir(dest_dir)
-    except FileExistsError:
-        pass
+    os.makedirs(dest_dir, exist_ok=True)
     
     with open(os.path.join(dest_dir, 'full.mermaid'), 'w') as f:
         f.write("\n".join(diagram.get_lines()))
