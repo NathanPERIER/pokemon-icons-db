@@ -20510,7 +20510,7 @@
                "ground"
             ],
             "gen": 6,
-            "variant": "50pct"
+            "variant": "f50pct"
          },
          {
             "links": {
@@ -20526,7 +20526,7 @@
                "ground"
             ],
             "gen": 7,
-            "variant": "10pct"
+            "variant": "f10pct"
          },
          {
             "links": {
