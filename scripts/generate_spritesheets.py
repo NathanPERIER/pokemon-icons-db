@@ -86,7 +86,7 @@ def main():
             first = False
 
     stylesheet: list[str] = [
-        f"{sprite_class} {{ " +
+        f"span{sprite_class} {{ " +
             "display: inline-block; " +
             f"width: {sprite_size[0]}px; " +
             f"height: {sprite_size[1]}px; " +
@@ -101,6 +101,20 @@ def main():
             "margin-top: -16px; " +
         "}",
         f"{sprite_class}.shiny {{ background-image: url('shiny.png'); }}"
+        f"img{sprite_class} {{ " +
+            "display: inline-block; " +
+            f"width: {sprite_size[0]}px; " +
+            f"height: {sprite_size[1]}px; " +
+            "--psprite-x: 0; " +
+            "--psprite-y: 0; " +
+            "object-fit: none; " +
+            f"object-position: calc(-1 * var(--psprite-x) * {sprite_size[0]}px) calc(-1 * var(--psprite-y) * {sprite_size[1]}px); " +
+            "image-rendering: pixelated; " +
+            "image-rendering: -moz-crisp-edges; " +
+            "margin-left: -12px; " +
+            "margin-right: -12px; " +
+            "margin-top: -16px; " +
+        "}",
     ]
     
     common_spritesheet = spritesheet(len(sprites), sprite_size)
