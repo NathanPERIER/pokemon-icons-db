@@ -19,6 +19,9 @@ check:
 spritesheets:
 	${VENV_PYTHON} scripts/generate_spritesheets.py
 
+html:
+	${VENV_PYTHON} scripts/generate_html.py
+
 mermaid:
 	${VENV_PYTHON} scripts/generate_mermaid.py
 
