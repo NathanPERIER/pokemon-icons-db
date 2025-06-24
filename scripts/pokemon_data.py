@@ -60,3 +60,7 @@ def load_groups() -> list[pkmn_group] :
     schema = load_json('schema.json')
     jsonschema.validate(data, schema)
     return list(pkmn_group(x) for x in data)
+
+def load_types() -> list[str] :
+    schema = load_json('schema.json')
+    return schema['$defs']['type']['enum']
