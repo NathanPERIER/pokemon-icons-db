@@ -83,6 +83,7 @@ def main():
     etree.SubElement(header, 'th').text = "Name (EN)"
     etree.SubElement(header, 'th').text = "Name (FR)"
     etree.SubElement(header, 'th').text = "Variant"
+    etree.SubElement(header, 'th').text = "Gen"
     etree.SubElement(header, 'th').text = "Type"
 
     for group in pokemon_data:
@@ -102,6 +103,7 @@ def main():
             variant_cell = etree.SubElement(line, 'td')
             if form.variant is not None :
                 etree.SubElement(variant_cell, 'code').text = form.variant
+            etree.SubElement(line, 'td').text = str(form.gen)
             etree.SubElement(line, 'td').text = ", ".join(form.types)
             first = False
 
