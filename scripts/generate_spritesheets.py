@@ -4,7 +4,7 @@ import math
 
 from PIL import Image
 
-from pokemon_data import load_groups
+from pokemon_data import load_groups, load_types
 
 dest_dir = './generated/spritesheets'
 
@@ -16,14 +16,23 @@ shiny_sprites_dir = os.path.join(sprites_base_dir, 'shiny/icons')
 icon_sprite_class = '.pkmn-icon'
 icon_sprite_size = (68, 56) # width, height
 
+type_sprite_class = '.pkmn-type'
+
+languages = ['en', 'fr']
+pkmn_types = load_types()
+
 
 phi = (1 + 5 ** 0.5) / 2
 class spritesheet:
-    def __init__(self, capacity: int, sprite_size: tuple[int, int]):
+    def __init__(self, capacity: int, sprite_size: tuple[int, int], width: int | None = None):
         self._capacity = capacity
         self._sprite_width = sprite_size[0]
         self._sprite_height = sprite_size[1]
-        self._grid_width = math.ceil(math.sqrt((self._capacity * self._sprite_height) / (self._sprite_width * phi)))
+        if width is not None :
+            self._grid_width = width
+        else:
+            # Compute the width to have a ratio close to the golden ratio
+            self._grid_width = math.ceil(math.sqrt((self._capacity * self._sprite_height) / (self._sprite_width * phi)))
         self._grid_height = math.ceil(self._capacity / self._grid_width)
         self._current_x = 0
         self._current_y = 0
@@ -47,6 +56,31 @@ class spritesheet:
     def write(self, filepath: str):
         self._im.save(filepath)
         print(f"Spritesheet saved at {filepath}")
+
+
+def make_type_spritesheet(sprite_name: str, sprite_size: tuple[int, int], spritesheet_name: str, has_text: bool, css_classes: list[str], stylesheet: list[str]) :
+    language_subpaths = [f"{x}/" for x in languages] if has_text else ['']
+    type_spritesheet = spritesheet(len(language_subpaths) * len(pkmn_types), sprite_size, len(language_subpaths))
+    for typ in pkmn_types:
+        for lang in language_subpaths:
+            type_spritesheet.add_sprite(os.path.join(sprites_base_dir, f"types/{typ}/{lang}{sprite_name}.png"))
+    type_spritesheet.write(os.path.join(dest_dir, f"{spritesheet_name}.png"))
+    css_classes_str = ".".join(css_classes)
+    stylesheet.extend([
+        f"span{type_sprite_class}.{css_classes_str}, img{type_sprite_class}.{css_classes_str} {{ " +
+            f"width: {sprite_size[0]}px; " +
+            f"height: {sprite_size[1]}px; " +
+        "}",
+        f"span{type_sprite_class}.{css_classes_str} {{ " +
+            f"background: url('{spritesheet_name}.png'); " +
+            f"background-position: calc(-1 * var(--psprite-x) * {sprite_size[0]}px) calc(-1 * var(--psprite-y) * {sprite_size[1]}px); " +
+        "}",
+        f"img{type_sprite_class}.{css_classes_str} {{ " +
+            "object-fit: none; " +
+            f"object-position: calc(-1 * var(--psprite-x) * {sprite_size[0]}px) calc(-1 * var(--psprite-y) * {sprite_size[1]}px); " +
+        "}"
+    ])
+
 
 
 def main():
@@ -111,7 +145,22 @@ def main():
             f"object-position: calc(-1 * var(--psprite-x) * {icon_sprite_size[0]}px) calc(-1 * var(--psprite-y) * {icon_sprite_size[1]}px); " +
         "}"
     ]
-    
+
+    make_type_spritesheet('logo_g8', (128, 128), 'type_logos_g8', False, ['logo', 'g8'], stylesheet)
+    make_type_spritesheet('logo_g9', (64, 64), 'type_logos_g9', False, ['logo', 'g9'], stylesheet)
+    make_type_spritesheet('icon_g3', (32, 14), 'type_icons_g3', True, ['icon', 'g3'], stylesheet)
+    make_type_spritesheet('icon_g4', (32, 12), 'type_icons_g4', True, ['icon', 'g4'], stylesheet)
+    make_type_spritesheet('icon_g4_pokedex', (48, 16), 'type_icons_g4_pokedex', True, ['icon', 'g4', 'pokedex'], stylesheet)
+    make_type_spritesheet('icon_g5', (32, 14), 'type_icons_g5', True, ['icon', 'g5'], stylesheet)
+    make_type_spritesheet('icon_g6', (50, 18), 'type_icons_g6', True, ['icon', 'g6'], stylesheet)
+    make_type_spritesheet('icon_g7', (48, 18), 'type_icons_g7', True, ['icon', 'g7'], stylesheet)
+    make_type_spritesheet('icon_g8', (200, 44), 'type_icons_g8', True, ['icon', 'g8'], stylesheet)
+    make_type_spritesheet('icon_g9', (200, 40), 'type_icons_g9', True, ['icon', 'g9'], stylesheet)
+
+    stylesheet.extend(f"{type_sprite_class}.{type} {{ --psprite-y: {idx};  }}" for idx, type in enumerate(list(pkmn_types.keys())[1:], start=1))
+    stylesheet.extend(f"{type_sprite_class}.icon.{type} {{ --psprite-x: {idx};  }}" for idx, type in enumerate(languages[1:], start=1))
+
+
     common_spritesheet = spritesheet(len(sprites), icon_sprite_size)
     shiny_spritesheet = spritesheet(len(sprites), icon_sprite_size)
     common_spritesheet.add_sprite(unknown_sprite_path)
