@@ -1,0 +1,106 @@
+{
+    "$id": "schema://pokemon-icons.db/schemas/types.json",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Pokémon types list",
+    "type": "object",
+    "properties": {
+        "normal": {
+            "$ref": "#/$defs/type_info"
+        },
+        "fire": {
+            "$ref": "#/$defs/type_info"
+        },
+        "water": {
+            "$ref": "#/$defs/type_info"
+        },
+        "electric": {
+            "$ref": "#/$defs/type_info"
+        },
+        "grass": {
+            "$ref": "#/$defs/type_info"
+        },
+        "ice": {
+            "$ref": "#/$defs/type_info"
+        },
+        "fighting": {
+            "$ref": "#/$defs/type_info"
+        },
+        "poison": {
+            "$ref": "#/$defs/type_info"
+        },
+        "ground": {
+            "$ref": "#/$defs/type_info"
+        },
+        "flying": {
+            "$ref": "#/$defs/type_info"
+        },
+        "psychic": {
+            "$ref": "#/$defs/type_info"
+        },
+        "bug": {
+            "$ref": "#/$defs/type_info"
+        },
+        "rock": {
+            "$ref": "#/$defs/type_info"
+        },
+        "ghost": {
+            "$ref": "#/$defs/type_info"
+        },
+        "dragon": {
+            "$ref": "#/$defs/type_info"
+        },
+        "dark": {
+            "$ref": "#/$defs/type_info"
+        },
+        "steel": {
+            "$ref": "#/$defs/type_info"
+        },
+        "fairy": {
+            "$ref": "#/$defs/type_info"
+        }
+    },
+    "minProperties": 18,
+    "additionalProperties": false,
+    "$defs": {
+        "type_info": {
+            "description": "Information associated with a given Pokémon type",
+            "type": "object",
+            "properties": {
+                "names": {
+                    "$ref": "./common/names.json"
+                },
+                "colour": {
+                    "$ref": "#/$defs/rgb_hex"
+                },
+                "strong_against": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "./common/type.json"
+                    },
+                    "uniqueItems": true
+                },
+                "weak_against": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "./common/type.json"
+                    },
+                    "uniqueItems": true
+                },
+                "ineffective_against": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "./common/type.json"
+                    },
+                    "uniqueItems": true
+                }
+            },
+            "additionalProperties": false,
+            "required": ["names", "colour", "strong_against", "weak_against", "ineffective_against"]
+        },
+        "rgb_hex": {
+            "description": "An RGB colour in hexadecimal format",
+            "type": "string",
+            "pattern": "^#[0-9a-f]{6}$"
+        }
+    }
+}

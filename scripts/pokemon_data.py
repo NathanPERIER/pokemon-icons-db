@@ -99,11 +99,18 @@ class pkmn_group:
     def find_form(self, variant: str | None) -> pkmn_form | None :
         return next(filter(lambda x: x.variant == variant, self.forms), None)
 
+class pkmn_type:
+    def __init__(self, data):
+        self.names = pkmn_names(data['names'])
+        self.colour: str = data['colour']
+        self.strong_against: list[str] = data['strong_against']
+        self.weak_against: list[str] = data['weak_against']
+        self.ineffective_against: list[str] = data['ineffective_against']
 
 def load_groups() -> list[pkmn_group] :
     data = load_validated_json('pokemon.json')
     return list(pkmn_group(x) for x in data)
 
-def load_types() -> list[str] :
-    schema = load_json(os.path.join(schemas_base_path, 'common/type.json'))
-    return schema['enum']
+def load_types() -> dict[str, pkmn_type] :
+    data = load_validated_json('types.json')
+    return { type_id: pkmn_type(type_data) for type_id, type_data in data.items() }

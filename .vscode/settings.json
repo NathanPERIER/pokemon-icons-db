@@ -5,6 +5,12 @@
                 "/pokemon.json"
             ],
             "url": "/schemas/pokemon.json"
+        },
+        {
+            "fileMatch": [
+                "/types.json"
+            ],
+            "url": "/schemas/types.json"
         }
     ]
 }
