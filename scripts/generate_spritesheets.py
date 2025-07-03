@@ -13,8 +13,8 @@ unknown_sprite_path = os.path.join(sprites_base_dir, 'unknown.png')
 common_sprites_dir = os.path.join(sprites_base_dir, 'common/icons')
 shiny_sprites_dir = os.path.join(sprites_base_dir, 'shiny/icons')
 
-sprite_class = '.pkmn-icon'
-sprite_size = (68, 56) # width, height
+icon_sprite_class = '.pkmn-icon'
+icon_sprite_size = (68, 56) # width, height
 
 
 phi = (1 + 5 ** 0.5) / 2
@@ -46,6 +46,7 @@ class spritesheet:
 
     def write(self, filepath: str):
         self._im.save(filepath)
+        print(f"Spritesheet saved at {filepath}")
 
 
 def main():
@@ -57,7 +58,7 @@ def main():
     sprites: dict[str, list[str]] = {}
     for group in pokemon_data:
         first = True
-        group_css_class = f"{sprite_class}.n{group.number:04d}"
+        group_css_class = f"{icon_sprite_class}.n{group.number:04d}"
         for form in group.forms:
             sprite_name = f"{group.number:04d}"
             female_sprite_name: str | None = None
@@ -86,39 +87,33 @@ def main():
             first = False
 
     stylesheet: list[str] = [
-        f"span{sprite_class} {{ " +
-            "display: inline-block; " +
-            f"width: {sprite_size[0]}px; " +
-            f"height: {sprite_size[1]}px; " +
+        f"span{icon_sprite_class}, img{icon_sprite_class}, span{type_sprite_class}, img{type_sprite_class} {{ " +
             "--psprite-x: 0; " +
             "--psprite-y: 0; " +
+            "image-rendering: pixelated; " +
+            "image-rendering: -moz-crisp-edges; " +
+        "}",
+        f"span{icon_sprite_class}, span{type_sprite_class} {{ display: inline-block; }}",
+        f"span{icon_sprite_class}, img{icon_sprite_class} {{ " +
+            f"width: {icon_sprite_size[0]}px; " +
+            f"height: {icon_sprite_size[1]}px; " +
+            "margin-left: -12px; " +
+            "margin-right: -12px; " +
+            "margin-top: -16px; " +
+        "}",
+        f"span{icon_sprite_class} {{ " +
             "background: url('common.png'); " +
-            f"background-position: calc(-1 * var(--psprite-x) * {sprite_size[0]}px) calc(-1 * var(--psprite-y) * {sprite_size[1]}px); " +
-            "image-rendering: pixelated; " +
-            "image-rendering: -moz-crisp-edges; " +
-            "margin-left: -12px; " +
-            "margin-right: -12px; " +
-            "margin-top: -16px; " +
+            f"background-position: calc(-1 * var(--psprite-x) * {icon_sprite_size[0]}px) calc(-1 * var(--psprite-y) * {icon_sprite_size[1]}px); " +
         "}",
-        f"{sprite_class}.shiny {{ background-image: url('shiny.png'); }}"
-        f"img{sprite_class} {{ " +
-            "display: inline-block; " +
-            f"width: {sprite_size[0]}px; " +
-            f"height: {sprite_size[1]}px; " +
-            "--psprite-x: 0; " +
-            "--psprite-y: 0; " +
+        f"span{icon_sprite_class}.shiny {{ background-image: url('shiny.png'); }}",
+        f"img{icon_sprite_class} {{ " +
             "object-fit: none; " +
-            f"object-position: calc(-1 * var(--psprite-x) * {sprite_size[0]}px) calc(-1 * var(--psprite-y) * {sprite_size[1]}px); " +
-            "image-rendering: pixelated; " +
-            "image-rendering: -moz-crisp-edges; " +
-            "margin-left: -12px; " +
-            "margin-right: -12px; " +
-            "margin-top: -16px; " +
-        "}",
+            f"object-position: calc(-1 * var(--psprite-x) * {icon_sprite_size[0]}px) calc(-1 * var(--psprite-y) * {icon_sprite_size[1]}px); " +
+        "}"
     ]
     
-    common_spritesheet = spritesheet(len(sprites), sprite_size)
-    shiny_spritesheet = spritesheet(len(sprites), sprite_size)
+    common_spritesheet = spritesheet(len(sprites), icon_sprite_size)
+    shiny_spritesheet = spritesheet(len(sprites), icon_sprite_size)
     common_spritesheet.add_sprite(unknown_sprite_path)
     shiny_spritesheet.add_sprite(unknown_sprite_path)
 
@@ -130,8 +125,10 @@ def main():
 
     common_spritesheet.write(os.path.join(dest_dir, 'common.png'))
     shiny_spritesheet.write(os.path.join(dest_dir, 'shiny.png'))
-    with open(os.path.join(dest_dir, 'styles.css'), 'w') as f:
+    stylesheet_dest = os.path.join(dest_dir, 'styles.css')
+    with open(stylesheet_dest, 'w') as f:
         f.write("\n".join(stylesheet))
+    print(f"Stylesheet saved at {stylesheet_dest}")
     
 
 if __name__ == '__main__':
