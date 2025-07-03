@@ -41,7 +41,9 @@ tr.group-start td {
 }
 td:nth-child(1),
 td:nth-child(2),
-tr.group-start td:nth-child(3) {
+tr.group-start td:nth-child(3),
+td:nth-last-child(2),
+td:nth-last-child(1) {
     text-align: center;
 }
 """
