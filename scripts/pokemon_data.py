@@ -2,6 +2,7 @@
 import os
 import json
 
+from enum import Enum
 from functools import lru_cache
 
 import jsonschema
@@ -41,6 +42,19 @@ def load_validated_json(filename: str):
     return data
 
 
+class pkmn_gender_ratio(Enum):
+    MALE_ONLY = "only-m"
+    M7_F1 = "7m-1f"
+    M3_F1 = "3m-1f"
+    M1_F1 = "1m-1f"
+    F3_M1 = "3f-1m"
+    F7_M1 = "7f-1m"
+    FEMALE_ONLY = "only-f"
+    UNGENDERED = "ungendered"
+
+    def is_mixed(self) -> bool :
+        return self not in [ pkmn_gender_ratio.MALE_ONLY, pkmn_gender_ratio.FEMALE_ONLY, pkmn_gender_ratio.UNGENDERED ]
+
 class pkmn_names:
     def __init__(self, data):
         self.fr: str = data['fr']
@@ -65,6 +79,7 @@ class pkmn_form:
         self.variant: str | None = data['variant'] if 'variant' in data else None
         self.evolution_variants: list[str] | None = data['evolution_variants'] if 'evolution_variants' in data else None
         self.gender_variant: bool = data['gender_variant'] if 'gender_variant' in data else False
+        self.gender_ratio = pkmn_gender_ratio(data['gender_ratio']) if 'gender_ratio' in data and data['gender_ratio'] is not None else None
         self.derives: pkmn_derivation | None = None
         if 'derives' in data and data['derives'] is not None :
             self.derives = pkmn_derivation(data['derives'])

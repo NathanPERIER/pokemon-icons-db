@@ -50,16 +50,17 @@ Additional constrains :
 
 ### Form
 
-| Key                  | Type                   | Default     | Constraints             | Description                                                                              |
-|----------------------|------------------------|-------------|-------------------------|------------------------------------------------------------------------------------------|
-| `names`              | [translated_names]     | (mandatory) |                         | The form's names                                                                         |
-| `links`              | [wiki_links]           | (mandatory) |                         | Wiki links for this form/Pokémon                                                         |
-| `types`              | `list`                 | (mandatory) | items: [type], unique   | The types of the Pokémon in this form                                                    |
-| `gen`                | `int`                  | (mandatory) | `1 <= val <= 9`         | Generation in which the form was introduced                                              |
-| `variant`            | `string` or `null`     | `null`      |                         | The variant associated with this form, `null` for the default/base form                  |
-| `evolution_variants` | `list` or `null`       | `null`      | items: `string`, unique | The non-default variant(s) required to evolve in this form                               |
-| `gender_variant`     | `bool`                 | `false`     |                         | Whether or not this form has a different appearence for males and females                |
-| `derives`            | [derivation] or `null` | `null`      |                         | Indicates that the current form derives from other forms of the same Pokémon, if present |
+| Key                  | Type                     | Default     | Constraints             | Description                                                                              |
+|----------------------|--------------------------|-------------|-------------------------|------------------------------------------------------------------------------------------|
+| `names`              | [translated_names]       | (mandatory) |                         | The form's names                                                                         |
+| `links`              | [wiki_links]             | (mandatory) |                         | Wiki links for this form/Pokémon                                                         |
+| `types`              | `list`                   | (mandatory) | items: [type], unique   | The types of the Pokémon in this form                                                    |
+| `gen`                | `int`                    | (mandatory) | `1 <= val <= 9`         | Generation in which the form was introduced                                              |
+| `variant`            | `string` or `null`       | `null`      |                         | The variant associated with this form, `null` for the default/base form                  |
+| `evolution_variants` | `list` or `null`         | `null`      | items: `string`, unique | The non-default variant(s) required to evolve in this form                               |
+| `gender_variant`     | `bool`                   | `false`     |                         | Whether or not this form has a different appearence for males and females                |
+| `gender_ratio`       | [gender_ratio] or `null` | `null`      |                         | Repartition of male/female individuals in the current form, mandatory if the form is not temporary. |
+| `derives`            | [derivation] or `null`   | `null`      |                         | Indicates that the current form derives from other forms of the same Pokémon, if present |
 
 Additional constrains :
 
@@ -67,6 +68,7 @@ Additional constrains :
 - The `evolution_variants` property must be null if the `evolves_from` group-level property is null.
 - A form with a non-null `evolution_variants` must have a null `derives` property, and conversely (derivated forms do not evolve directly, they are obtained from another form of the same Pokémon, which might have previously evolved).
 - All variants in `evolution_variants` must exist in the group associated with the `evolves_from` property (at group level). Additionally, they cannot refer to a derived form.
+- A form with a gender variant must have a gender ratio, and the ratio must allow for both male and female individuals.
 - The form with the default variant (`"variant": null`, if any) cannot be derived from another form.
 - The first form in the list is the one that "best respresents" the species :
     - If the group has a null variant form, it must be the first in the list.
@@ -108,9 +110,7 @@ All names must be available in French and English.
 
 ### Types
 
-Enumeration that lists all available Pokémon types.
-
-Available values :
+Enumeration that lists all available Pokémon types :
 
 - `"normal"`
 - `"fighting"`
@@ -131,6 +131,19 @@ Available values :
 - `"dark"`
 - `"fairy"`
 
+### Gender ratios
+
+Enumeration that lists all possible gender ratios within a species :
+
+- `"only-m"`
+- `"7m-1f"`
+- `"3m-1f"`
+- `"1m-1f"`
+- `"3f-1m"`
+- `"7f-1m"`
+- `"only-f"`
+- `"ungendered"`
+
 
 
 
@@ -142,6 +155,7 @@ Available values :
 [translated_names]: #translated-names
 [wiki_links]: #wiki-links
 [type]: #types
+[gender_ratio]: #gender-ratios
 
 [Deoxys #0386]: https://bulbapedia.bulbagarden.net/wiki/Deoxys_(Pok%C3%A9mon)
 [Furfrou #0676]: https://bulbapedia.bulbagarden.net/wiki/Furfrou_(Pok%C3%A9mon)

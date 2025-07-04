@@ -125,6 +125,10 @@ def main() -> int :
                         logger.error(f"Default evolution variant in pre-evolution group {pre_evolution.number} refers to a derived form")
                     else:
                         logger.error(f"Evolution variant {pre_form.variant} in pre-evolution group {pre_evolution.number} refers to a derived form")
+            if form.derives is None and form.gender_ratio is None :
+                logger.error(f"Missing gender ratio for non-derived form {form.variant}")
+            if form.gender_variant and (form.gender_ratio is None or not form.gender_ratio.is_mixed()) :
+                logger.error(f"Found gender variant for form {form.variant} with non-mixed gender ratio {form.gender_ratio}")
     for group in pokemon_data :
         logger.start_group(group.number)
         for form in group.forms :

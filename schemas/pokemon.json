@@ -87,6 +87,14 @@
                     "type": "boolean",
                     "default": false
                 },
+                "gender_ratio": {
+                    "description": "Indicates the gender repartition for this form, if non-derived",
+                    "anyOf": [
+                        { "type": "null" },
+                        { "$ref": "#/$defs/gender_ratio" }
+                    ],
+                    "default": null
+                },
                 "derives": {
                     "description": "Indicates that the current form derives from other forms of the same Pokémon, if present",
                     "anyOf": [
@@ -122,6 +130,20 @@
         "pokemon_id": {
             "type": "integer",
             "minimum": 1
+        },
+        "gender_ratio": {
+            "description": "The gender repartition for a Pokémon form",
+            "type": "string",
+            "enum": [
+                "only-m",
+                "7m-1f",
+                "3m-1f",
+                "1m-1f",
+                "3f-1m",
+                "7f-1m",
+                "only-f",
+                "ungendered"
+            ]
         },
         "variant_id": {
             "anyOf": [
