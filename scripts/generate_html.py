@@ -106,7 +106,9 @@ def main():
             if form.variant is not None :
                 etree.SubElement(variant_cell, 'code').text = form.variant
             etree.SubElement(line, 'td').text = str(form.gen)
-            etree.SubElement(line, 'td').text = ", ".join(form.types)
+            type_cell = etree.SubElement(line, 'td')
+            for type in form.types :
+                etree.SubElement(type_cell, 'span', attrib={'class': f"pkmn-type icon g3 {type}"})
             first = False
 
     dump_html(os.path.join(dest_dir, 'index.html'), generate_document(table))
