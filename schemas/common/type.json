@@ -1,0 +1,27 @@
+{
+    "$id": "schema://pokemon-icons.db/schemas/common/type.json",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Pokémon type enum",
+    "description": "A Pokémon type identifier",
+    "type": "string",
+    "enum": [
+        "normal",
+        "fighting",
+        "flying",
+        "poison",
+        "ground",
+        "rock",
+        "bug",
+        "ghost",
+        "steel",
+        "fire",
+        "water",
+        "grass",
+        "electric",
+        "psychic",
+        "ice",
+        "dragon",
+        "dark",
+        "fairy"
+    ]
+}

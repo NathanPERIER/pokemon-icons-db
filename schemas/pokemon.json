@@ -1,5 +1,5 @@
 {
-    "$id": "http://yourdomain.com/schemas/myschema.json",
+    "$id": "schema://pokemon-icons.db/schemas/pokemon.json",
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "title": "Pokémon list",
     "type": "array",
@@ -25,7 +25,7 @@
                 },
                 "common_names": {
                     "description": "Group names for variant-only groups",
-                    "$ref": "#/$defs/names"
+                    "$ref": "./common/names.json"
                 },
                 "forms": {
                     "description": "List of forms the Pokémon can be found in",
@@ -45,11 +45,11 @@
             "properties": {
                 "names": {
                     "description": "The form's names",
-                    "$ref": "#/$defs/names"
+                    "$ref": "./common/names.json"
                 },
                 "links": {
                     "description": "Wiki links for this form/Pokémon",
-                    "$ref": "#/$defs/wiki_links"
+                    "$ref": "./common/wiki_links.json"
                 },
                 "types": {
                     "description": "The types of the Pokémon in this form",
@@ -57,7 +57,7 @@
                     "minItems": 1,
                     "maxItems": 2,
                     "items": {
-                        "$ref": "#/$defs/type"
+                        "$ref": "./common/type.json"
                     },
                     "uniqueItems": true
                 },
@@ -122,66 +122,6 @@
         "pokemon_id": {
             "type": "integer",
             "minimum": 1
-        },
-        "names": {
-            "description": "The names of a Pokémon in different languages",
-            "type": "object",
-            "properties": {
-                "en": {
-                    "description": "The English name",
-                    "type": "string",
-                    "minLength": 1
-                },
-                "fr": {
-                    "description": "The French name",
-                    "type": "string",
-                    "minLength": 1
-                }
-            },
-            "required": ["en", "fr"],
-            "additionalProperties": false
-        },
-        "wiki_links": {
-            "description": "The links for a Pokémon entry in various wikis",
-            "type": "object",
-            "properties": {
-                "bulbapedia": {
-                    "description": "The Bulbapedia link",
-                    "type": "string",
-                    "minLength": 1
-                },
-                "pokepedia": {
-                    "description": "The Poképédia link",
-                    "type": "string",
-                    "minLength": 1
-                }
-            },
-            "required": ["bulbapedia", "pokepedia"],
-            "additionalProperties": false
-        },
-        "type": {
-            "description": "A Pokémon type identifier",
-            "type": "string",
-            "enum": [
-                "normal",
-                "fire",
-                "water",
-                "electric",
-                "grass",
-                "ice",
-                "fighting",
-                "poison",
-                "ground",
-                "flying",
-                "psychic",
-                "bug",
-                "rock",
-                "ghost",
-                "dragon",
-                "dark",
-                "steel",
-                "fairy"
-            ]
         },
         "variant_id": {
             "anyOf": [

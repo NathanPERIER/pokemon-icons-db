@@ -1,0 +1,21 @@
+{
+    "$id": "schema://pokemon-icons.db/schemas/common/names.json",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Pokémon translated names",
+    "description": "The names of an entity in different languages",
+    "type": "object",
+    "properties": {
+        "en": {
+            "description": "The English name",
+            "type": "string",
+            "minLength": 1
+        },
+        "fr": {
+            "description": "The French name",
+            "type": "string",
+            "minLength": 1
+        }
+    },
+    "required": ["en", "fr"],
+    "additionalProperties": false
+}

@@ -1,12 +1,44 @@
 
+import os
 import json
 
+from functools import lru_cache
+
 import jsonschema
+from referencing import Registry, Resource
+from referencing.exceptions import NoSuchResource
 
 
 def load_json(path: str):
     with open(path, 'r') as f:
         return json.load(f)
+
+
+schemas_base_path = 'schemas'
+schemas_base_uri = 'schema://pokemon-icons.db/'
+@lru_cache(maxsize=20)
+def retrieve_schema(uri: str):
+    # This is probably obsolete
+    if uri.startswith(schemas_base_uri):
+        schema_path = uri[len(schemas_base_uri):]
+        return Resource.from_contents(load_json(schema_path))
+    # This works because we only load schemas in '<root>/schemas/common'
+    if uri.startswith('./'):
+        filename = os.path.basename(uri)
+        schema_path = os.path.join(schemas_base_path, 'common', filename)
+        return Resource.from_contents(load_json(schema_path))
+    raise NoSuchResource(ref=uri)
+
+registry = Registry(retrieve=retrieve_schema)
+
+
+def load_validated_json(filename: str):
+    data = load_json(filename)
+    # TODO: this is not ideal (should fetch only once)
+    # but in practice we only load the data once, so it is sufficient
+    schema = load_json(os.path.join(schemas_base_path, filename))
+    jsonschema.validate(data, schema, registry=registry)
+    return data
 
 
 class pkmn_names:
@@ -54,13 +86,9 @@ class pkmn_group:
 
 
 def load_groups() -> list[pkmn_group] :
-    data = load_json('pokemon.json')
-    # TODO: this is not ideal (should load only once)
-    # but in practice we only load the data once, so it is sufficient
-    schema = load_json('schema.json')
-    jsonschema.validate(data, schema)
+    data = load_validated_json('pokemon.json')
     return list(pkmn_group(x) for x in data)
 
 def load_types() -> list[str] :
-    schema = load_json('schema.json')
-    return schema['$defs']['type']['enum']
+    schema = load_json(os.path.join(schemas_base_path, 'common/type.json'))
+    return schema['enum']

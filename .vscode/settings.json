@@ -1,0 +1,10 @@
+{
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "/pokemon.json"
+            ],
+            "url": "/schemas/pokemon.json"
+        }
+    ]
+}

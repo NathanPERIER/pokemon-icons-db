@@ -1,0 +1,21 @@
+{
+    "$id": "schema://pokemon-icons.db/schemas/common/wiki_links.json",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Pokémon wiki links",
+    "description": "The links for a Pokémon entry in various wikis",
+    "type": "object",
+    "properties": {
+        "bulbapedia": {
+            "description": "The Bulbapedia link",
+            "type": "string",
+            "minLength": 1
+        },
+        "pokepedia": {
+            "description": "The Poképédia link",
+            "type": "string",
+            "minLength": 1
+        }
+    },
+    "required": ["bulbapedia", "pokepedia"],
+    "additionalProperties": false
+}
