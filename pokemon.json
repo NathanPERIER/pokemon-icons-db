@@ -948,7 +948,7 @@
             "gen": 7,
             "variant": "cap-original",
             "gender_variant": true,
-            "gender_ratio": "only-m"
+            "gender_ratio": "1m-1f"
          },
          {
             "links": {
@@ -965,7 +965,7 @@
             "gen": 7,
             "variant": "cap-hoenn",
             "gender_variant": true,
-            "gender_ratio": "only-m"
+            "gender_ratio": "1m-1f"
          },
          {
             "links": {
@@ -982,7 +982,7 @@
             "gen": 7,
             "variant": "cap-sinnoh",
             "gender_variant": true,
-            "gender_ratio": "only-m"
+            "gender_ratio": "1m-1f"
          },
          {
             "links": {
@@ -999,7 +999,7 @@
             "gen": 7,
             "variant": "cap-unova",
             "gender_variant": true,
-            "gender_ratio": "only-m"
+            "gender_ratio": "1m-1f"
          },
          {
             "links": {
@@ -1016,7 +1016,7 @@
             "gen": 7,
             "variant": "cap-kalos",
             "gender_variant": true,
-            "gender_ratio": "only-m"
+            "gender_ratio": "1m-1f"
          },
          {
             "links": {
@@ -1033,7 +1033,7 @@
             "gen": 7,
             "variant": "cap-alola",
             "gender_variant": true,
-            "gender_ratio": "only-m"
+            "gender_ratio": "1m-1f"
          },
          {
             "links": {
@@ -1050,7 +1050,7 @@
             "gen": 7,
             "variant": "cap-partner",
             "gender_variant": true,
-            "gender_ratio": "only-m"
+            "gender_ratio": "1m-1f"
          },
          {
             "links": {
@@ -1067,7 +1067,7 @@
             "gen": 7,
             "variant": "partner",
             "gender_variant": true,
-            "gender_ratio": "only-m"
+            "gender_ratio": "1m-1f"
          },
          {
             "links": {
@@ -1104,7 +1104,7 @@
             ],
             "gen": 8,
             "variant": "cap-world",
-            "gender_ratio": "only-m"
+            "gender_ratio": "1m-1f"
          }
       ],
       "number": 25
