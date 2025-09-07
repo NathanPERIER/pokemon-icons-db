@@ -22,6 +22,9 @@ spritesheets:
 html:
 	${VENV_PYTHON} scripts/generate_html.py
 
+markdown:
+	${VENV_PYTHON} scripts/generate_markdown.py
+
 mermaid:
 	${VENV_PYTHON} scripts/generate_mermaid.py
 
