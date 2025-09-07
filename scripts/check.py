@@ -2,7 +2,7 @@
 import os
 import sys
 
-from pokemon_data import load_groups, pkmn_group, pkmn_form
+from pokemon_data import load_groups, load_types, pkmn_group, pkmn_form
 
 
 class error_logger :
@@ -34,7 +34,7 @@ def check_sprite_files(filename: str, logger: error_logger):
     if not os.path.isfile(shiny_icon_path) :
         logger.error(f"Shiny icon not found in {shiny_icon_path}")
 
-def check_sprites(group: pkmn_group, form: pkmn_form, logger: error_logger):
+def check_pokemon_sprites(group: pkmn_group, form: pkmn_form, logger: error_logger):
     group_id = f"{group.number:04d}"
     if form.gender_variant :
         sprite_files = [f"{group_id}_f", f"{group_id}_m"]
@@ -46,17 +46,7 @@ def check_sprites(group: pkmn_group, form: pkmn_form, logger: error_logger):
     for filename in sprite_files:
         check_sprite_files(filename, logger)
 
-
-def main() -> int :
-    try:
-        pokemon_data = load_groups()
-        print('Schema validation OK')
-    except Exception as e:
-        print(f"Data does not match the provided schema: {e}")
-        return 1
-
-    logger = error_logger()
-
+def check_pokemon_groups(pokemon_data: list[pkmn_group], logger: error_logger):
     last_number: int | None = None
     all_groups: dict[int, pkmn_group] = {}
     for group in pokemon_data:
@@ -95,7 +85,7 @@ def main() -> int :
             else:
                 logger.error(f"Group {group.number} evolves from unknown group {group.evolves_from}")
         for form in group.forms :
-            check_sprites(group, form, logger)
+            check_pokemon_sprites(group, form, logger)
             if form.evolution_variants is not None :
                 if form.derives is not None :
                     logger.error(f"Found evolution variant {form.evolution_variants} for derived group")
@@ -146,6 +136,25 @@ def main() -> int :
                         continue
                     if derived_form.is_temporary() and not form.is_temporary() :
                         logger.error(f"Permanent variant {form.variant} derives from battle-only variant {derived_variant}")
+
+def main() -> int :
+    logger = error_logger()
+
+    try:
+        type_data = load_types()
+        print('Types schema validation OK')
+    except Exception as e:
+        print(f"Type data does not match the provided schema: {e}")
+        return 1
+
+    try:
+        pokemon_data = load_groups()
+        print('Pokémon schema validation OK')
+    except Exception as e:
+        print(f"Pokémon data does not match the provided schema: {e}")
+        return 1
+
+    check_pokemon_groups(pokemon_data, logger)
 
     if logger.ok() :
         print(f"Checked {len(pokemon_data)} groups => all OK")
