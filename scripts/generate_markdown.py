@@ -14,35 +14,7 @@ class alignment(Enum):
     RIGHT = 1
     CENTER = 2
 
-def generate_table(header: list[str], alignments: list[alignment], lines: list[list[str]]) -> list[str] :
-    res = []
-    max_sizes = []
-    for i in range(len(header)) :
-        max_sizes.append(max(len(header[i]), max(len(x[i]) for x in lines)))
-    header_str = "|"
-    for i, cell in enumerate(header) :
-        header_str += f" {cell.ljust(max_sizes[i])} |"
-    res.append(header_str)
-    separator = "|"
-    for i, align in enumerate(alignments) :
-        separator += ("-" if align == alignment.RIGHT else ":")
-        separator += "-" * max_sizes[i]
-        separator += ("-" if align == alignment.LEFT else ":")
-        separator += "|"
-    res.append(separator)
-    for line in lines :
-        line_str = "|"
-        for i, cell in enumerate(line) :
-            line_str += " "
-            if alignments[i] == alignment.RIGHT :
-                line_str += cell.rjust(max_sizes[i])
-            else:
-                line_str += cell.ljust(max_sizes[i])
-            line_str += " |"
-        res.append(line_str)
-    return res
-
-def dump_table(lines: list[str], filepath: str):
+def write_lines(lines: list[str], filepath: str):
     with open(filepath, 'w') as f:
         for line in lines:
             f.write(line)
@@ -88,15 +60,28 @@ def main():
 
     pokemon_data = load_groups()
 
-    header = ['N°']
-    alignments = [alignment.CENTER]
+    header: list[tuple[str, alignment]] = [('N°', alignment.CENTER)]
     if insert_images :
-        header.extend(['Common', 'Shiny'])
-        alignments.extend([alignment.CENTER, alignment.CENTER])
-    header.extend(['Name (EN)', 'Name (FR)', 'Type', 'Gen'])
-    alignments.extend([alignment.LEFT, alignment.LEFT, alignment.CENTER, alignment.CENTER])
+        header.extend([
+            ('Common', alignment.CENTER),
+            ('Shiny', alignment.CENTER)
+        ])
+    header.extend([
+        ('Name (EN)', alignment.LEFT),
+        ('Name (FR)', alignment.LEFT),
+        ('Type', alignment.CENTER),
+        ('Gen', alignment.CENTER)
+    ])
 
-    lines = []
+    lines = ["| " + " | ".join(h[0] for h in header) + " |"]
+    separator = "|"
+    for h in header:
+        separator += ("-" if h[1] == alignment.RIGHT else ":")
+        separator += "-" * len(h[0])
+        separator += ("-" if h[1] == alignment.LEFT else ":")
+        separator += "|"
+    lines.append(separator)
+
 
     for group in pokemon_data:
         for form in group.forms:
@@ -111,23 +96,22 @@ def main():
             else:
                 line.append(", ".join(form.types))
             line.append(str(form.gen))
-            lines.append(line)
+            lines.append("| " + " | ".join(line) + " |")
 
     # We use reference-style links for images to reduce the document size
-    table = generate_table(header, alignments, lines)
     if insert_images:
-        table.append('')
+        lines.append('')
         if use_spritesheets:
-            table.extend([
+            lines.extend([
                 f"[{common_spritesheet}]: ./spritesheets/common.png",
                 f"[{shiny_spritesheet}]: ./spritesheets/shiny.png",
                 f"[{types_spritesheet}]: ./spritesheets/type_icons_g3.png"
             ])
         else:
             for type in load_types().keys():
-                table.append(f"[{type} type]: ../sprites/types/{type}/en/icon_g3.png")
+                lines.append(f"[{type} type]: ../sprites/types/{type}/en/icon_g3.png")
 
-    dump_table(table, os.path.join(dest_dir, 'pokemon.md'))
+    write_lines(lines, os.path.join(dest_dir, 'pokemon.md'))
 
 if __name__ == '__main__':
     main()
