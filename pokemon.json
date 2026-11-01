@@ -19814,6 +19814,43 @@
             "gen": 6,
             "variant": "white",
             "gender_ratio": "only-f"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/AZ%27s_Floette",
+               "pokepedia": "https://www.pokepedia.fr/Floette"
+            },
+            "names": {
+               "en": "Floette Eternal Flower",
+               "fr": "Floette Fleur Éternelle"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 6,
+            "variant": "eternal",
+            "gender_ratio": "only-f"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/AZ%27s_Floette",
+               "pokepedia": "https://www.pokepedia.fr/M%C3%A9ga-Floette"
+            },
+            "names": {
+               "en": "Mega Floette",
+               "fr": "Méga-Floette"
+            },
+            "types": [
+               "fairy"
+            ],
+            "gen": 9,
+            "variant": "eternal-mega",
+            "derives": {
+               "from": [
+                  "eternal"
+               ],
+               "battle_only": true
+            }
          }
       ],
       "number": 670
