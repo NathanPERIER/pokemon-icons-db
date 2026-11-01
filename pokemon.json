@@ -1400,6 +1400,28 @@
             "gen": 1,
             "variant": null,
             "gender_ratio": "3f-1m"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Clefable_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/M%C3%A9ga-M%C3%A9lodelfe"
+            },
+            "names": {
+               "en": "Mega Clefable",
+               "fr": "Méga-Mélodelfe"
+            },
+            "types": [
+               "flying",
+               "fairy"
+            ],
+            "gen": 9,
+            "variant": "mega",
+            "derives": {
+               "from": [
+                  null
+               ],
+               "battle_only": true
+            }
          }
       ],
       "number": 36
@@ -2397,6 +2419,28 @@
             "gen": 1,
             "variant": null,
             "gender_ratio": "1m-1f"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Victreebel_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/M%C3%A9ga-Empiflor"
+            },
+            "names": {
+               "en": "Mega Victreebel",
+               "fr": "Méga-Empiflor"
+            },
+            "types": [
+               "grass",
+               "poison"
+            ],
+            "gen": 9,
+            "variant": "mega",
+            "derives": {
+               "from": [
+                  null
+               ],
+               "battle_only": true
+            }
          }
       ],
       "number": 71
@@ -3880,6 +3924,28 @@
             "gen": 1,
             "variant": null,
             "gender_ratio": "ungendered"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Starmie_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/M%C3%A9ga-Staross"
+            },
+            "names": {
+               "en": "Mega Starmie",
+               "fr": "Méga-Staross"
+            },
+            "types": [
+               "water",
+               "psychic"
+            ],
+            "gen": 9,
+            "variant": "mega",
+            "derives": {
+               "from": [
+                  null
+               ],
+               "battle_only": true
+            }
          }
       ],
       "number": 121
@@ -4776,6 +4842,28 @@
             "gen": 1,
             "variant": null,
             "gender_ratio": "1m-1f"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Dragonite_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/M%C3%A9ga-Dracolosse"
+            },
+            "names": {
+               "en": "Mega Dragonite",
+               "fr": "Méga-Dracolosse"
+            },
+            "types": [
+               "dragon",
+               "flying"
+            ],
+            "gen": 9,
+            "variant": "mega",
+            "derives": {
+               "from": [
+                  null
+               ],
+               "battle_only": true
+            }
          }
       ],
       "number": 149
@@ -4929,6 +5017,28 @@
             "gen": 2,
             "variant": null,
             "gender_ratio": "7m-1f"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Meganium_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/M%C3%A9ga-M%C3%A9ganium"
+            },
+            "names": {
+               "en": "Mega Meganium",
+               "fr": "Méga-Méganium"
+            },
+            "types": [
+               "grass",
+               "fairy"
+            ],
+            "gen": 9,
+            "variant": "mega",
+            "derives": {
+               "from": [
+                  null
+               ],
+               "battle_only": true
+            }
          }
       ],
       "number": 154
@@ -5078,6 +5188,28 @@
             "gen": 2,
             "variant": null,
             "gender_ratio": "7m-1f"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Feraligatr_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/M%C3%A9ga-Aligatueur"
+            },
+            "names": {
+               "en": "Mega Feraligatr",
+               "fr": "Méga-Aligatueur"
+            },
+            "types": [
+               "water",
+               "dragon"
+            ],
+            "gen": 9,
+            "variant": "mega",
+            "derives": {
+               "from": [
+                  null
+               ],
+               "battle_only": true
+            }
          }
       ],
       "number": 160
@@ -7216,6 +7348,28 @@
             "gen": 2,
             "variant": null,
             "gender_ratio": "1m-1f"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Skarmory_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/M%C3%A9ga-Airmure"
+            },
+            "names": {
+               "en": "Mega Skarmory",
+               "fr": "Méga-Airmure"
+            },
+            "types": [
+               "steel",
+               "flying"
+            ],
+            "gen": 9,
+            "variant": "mega",
+            "derives": {
+               "from": [
+                  null
+               ],
+               "battle_only": true
+            }
          }
       ],
       "number": 227
@@ -13805,6 +13959,28 @@
             "gen": 4,
             "variant": null,
             "gender_ratio": "only-f"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Froslass_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/M%C3%A9ga-Momartik"
+            },
+            "names": {
+               "en": "Mega Froslass",
+               "fr": "Méga-Momartik"
+            },
+            "types": [
+               "ice",
+               "ghost"
+            ],
+            "gen": 9,
+            "variant": "mega",
+            "derives": {
+               "from": [
+                  null
+               ],
+               "battle_only": true
+            }
          }
       ],
       "number": 478
@@ -14860,6 +15036,28 @@
             "gen": 5,
             "variant": null,
             "gender_ratio": "7m-1f"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Emboar_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/M%C3%A9ga-Roitiflam"
+            },
+            "names": {
+               "en": "Mega Emboar",
+               "fr": "Méga-Roitiflam"
+            },
+            "types": [
+               "fire",
+               "fighting"
+            ],
+            "gen": 9,
+            "variant": "mega",
+            "derives": {
+               "from": [
+                  null
+               ],
+               "battle_only": true
+            }
          }
       ],
       "number": 500
@@ -15544,6 +15742,28 @@
             "gen": 5,
             "variant": null,
             "gender_ratio": "1m-1f"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Excadrill_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/M%C3%A9ga-Minotaupe"
+            },
+            "names": {
+               "en": "Mega Excadrill",
+               "fr": "Méga-Minotaupe"
+            },
+            "types": [
+               "ground",
+               "steel"
+            ],
+            "gen": 9,
+            "variant": "mega",
+            "derives": {
+               "from": [
+                  null
+               ],
+               "battle_only": true
+            }
          }
       ],
       "number": 530
@@ -15904,6 +16124,28 @@
             "gen": 5,
             "variant": null,
             "gender_ratio": "1m-1f"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Scolipede_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/M%C3%A9ga-Brutapode"
+            },
+            "names": {
+               "en": "Mega Scolipede",
+               "fr": "Méga-Brutapode"
+            },
+            "types": [
+               "bug",
+               "poison"
+            ],
+            "gen": 9,
+            "variant": "mega",
+            "derives": {
+               "from": [
+                  null
+               ],
+               "battle_only": true
+            }
          }
       ],
       "number": 545
@@ -16376,6 +16618,28 @@
             "gen": 5,
             "variant": null,
             "gender_ratio": "1m-1f"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Scrafty_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/M%C3%A9ga-Bagga%C3%AFd"
+            },
+            "names": {
+               "en": "Mega Scrafty",
+               "fr": "Méga-Baggaïd"
+            },
+            "types": [
+               "dark",
+               "fighting"
+            ],
+            "gen": 9,
+            "variant": "mega",
+            "derives": {
+               "from": [
+                  null
+               ],
+               "battle_only": true
+            }
          }
       ],
       "number": 560
@@ -17547,6 +17811,27 @@
             "gen": 5,
             "variant": null,
             "gender_ratio": "1m-1f"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Eelektross_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/M%C3%A9ga-Ohmassacre"
+            },
+            "names": {
+               "en": "Mega Eelektross",
+               "fr": "Méga-Ohmassacre"
+            },
+            "types": [
+               "electric"
+            ],
+            "gen": 9,
+            "variant": "mega",
+            "derives": {
+               "from": [
+                  null
+               ],
+               "battle_only": true
+            }
          }
       ],
       "number": 604
@@ -17660,6 +17945,28 @@
             "gen": 5,
             "variant": null,
             "gender_ratio": "1m-1f"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Chandelure_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/M%C3%A9ga-Lugulabre"
+            },
+            "names": {
+               "en": "Mega Chandelure",
+               "fr": "Méga-Lugulabre"
+            },
+            "types": [
+               "ghost",
+               "fire"
+            ],
+            "gen": 9,
+            "variant": "mega",
+            "derives": {
+               "from": [
+                  null
+               ],
+               "battle_only": true
+            }
          }
       ],
       "number": 609
@@ -18928,6 +19235,28 @@
             "gen": 6,
             "variant": null,
             "gender_ratio": "7m-1f"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Chesnaught_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/M%C3%A9ga-Blind%C3%A9pique"
+            },
+            "names": {
+               "en": "Mega Chesnaught",
+               "fr": "Méga-Blindépique"
+            },
+            "types": [
+               "grass",
+               "fighting"
+            ],
+            "gen": 9,
+            "variant": "mega",
+            "derives": {
+               "from": [
+                  null
+               ],
+               "battle_only": true
+            }
          }
       ],
       "number": 652
@@ -18995,6 +19324,28 @@
             "gen": 6,
             "variant": null,
             "gender_ratio": "7m-1f"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Delphox_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/M%C3%A9ga-Goupelin"
+            },
+            "names": {
+               "en": "Mega Delphox",
+               "fr": "Méga-Goupelin"
+            },
+            "types": [
+               "fire",
+               "psychic"
+            ],
+            "gen": 9,
+            "variant": "mega",
+            "derives": {
+               "from": [
+                  null
+               ],
+               "battle_only": true
+            }
          }
       ],
       "number": 655
@@ -19079,6 +19430,28 @@
             "gen": 7,
             "variant": "ash",
             "gender_ratio": "only-m"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Greninja_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/M%C3%A9ga-Amphinobi"
+            },
+            "names": {
+               "en": "Mega Greninja",
+               "fr": "Méga-Amphinobi"
+            },
+            "types": [
+               "water",
+               "dark"
+            ],
+            "gen": 9,
+            "variant": "mega",
+            "derives": {
+               "from": [
+                  null
+               ],
+               "battle_only": true
+            }
          }
       ],
       "number": 658
@@ -19634,6 +20007,28 @@
             "variant": null,
             "gender_variant": true,
             "gender_ratio": "7f-1m"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Pyroar_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/M%C3%A9ga-N%C3%A9m%C3%A9lios"
+            },
+            "names": {
+               "en": "Mega Pyroar",
+               "fr": "Méga-Némélios"
+            },
+            "types": [
+               "fire",
+               "normal"
+            ],
+            "gen": 9,
+            "variant": "mega",
+            "derives": {
+               "from": [
+                  null
+               ],
+               "battle_only": true
+            }
          }
       ],
       "number": 668
@@ -20520,6 +20915,28 @@
             "gen": 6,
             "variant": null,
             "gender_ratio": "1m-1f"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Malamar_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/M%C3%A9ga-Sepiatroce"
+            },
+            "names": {
+               "en": "Mega Malamar",
+               "fr": "Méga-Sepiatroce"
+            },
+            "types": [
+               "dark",
+               "psychic"
+            ],
+            "gen": 9,
+            "variant": "mega",
+            "derives": {
+               "from": [
+                  null
+               ],
+               "battle_only": true
+            }
          }
       ],
       "number": 687
@@ -20566,6 +20983,28 @@
             "gen": 6,
             "variant": null,
             "gender_ratio": "1m-1f"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Barbaracle_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/M%C3%A9ga-Golgopathe"
+            },
+            "names": {
+               "en": "Mega Barbaracle",
+               "fr": "Méga-Golgopathe"
+            },
+            "types": [
+               "rock",
+               "fighting"
+            ],
+            "gen": 9,
+            "variant": "mega",
+            "derives": {
+               "from": [
+                  null
+               ],
+               "battle_only": true
+            }
          }
       ],
       "number": 689
@@ -20612,6 +21051,28 @@
             "gen": 6,
             "variant": null,
             "gender_ratio": "1m-1f"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Dragalge_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/M%C3%A9ga-Kravarech"
+            },
+            "names": {
+               "en": "Mega Dragalge",
+               "fr": "Méga-Kravarech"
+            },
+            "types": [
+               "poison",
+               "dragon"
+            ],
+            "gen": 9,
+            "variant": "mega",
+            "derives": {
+               "from": [
+                  null
+               ],
+               "battle_only": true
+            }
          }
       ],
       "number": 691
@@ -20839,6 +21300,28 @@
             "gen": 6,
             "variant": null,
             "gender_ratio": "1m-1f"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Hawlucha_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/M%C3%A9ga-Brutalibr%C3%A9"
+            },
+            "names": {
+               "en": "Mega Hawlucha",
+               "fr": "Méga-Brutalibré"
+            },
+            "types": [
+               "fighting",
+               "flying"
+            ],
+            "gen": 9,
+            "variant": "mega",
+            "derives": {
+               "from": [
+                  null
+               ],
+               "battle_only": true
+            }
          }
       ],
       "number": 701
@@ -21448,6 +21931,28 @@
             "gen": 7,
             "variant": "complete",
             "gender_ratio": "ungendered"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Zygarde_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/M%C3%A9ga-Zygarde"
+            },
+            "names": {
+               "en": "Mega Zygarde",
+               "fr": "Méga-Zygarde"
+            },
+            "types": [
+               "dragon",
+               "ground"
+            ],
+            "gen": 9,
+            "variant": "mega",
+            "derives": {
+               "from": [
+                  "complete"
+               ],
+               "battle_only": true
+            }
          }
       ],
       "number": 718
@@ -23541,6 +24046,28 @@
             "gen": 7,
             "variant": null,
             "gender_ratio": "1m-1f"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Drampa_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/M%C3%A9ga-Dra%C3%AFeul"
+            },
+            "names": {
+               "en": "Mega Drampa",
+               "fr": "Méga-Draïeul"
+            },
+            "types": [
+               "normal",
+               "dragon"
+            ],
+            "gen": 9,
+            "variant": "mega",
+            "derives": {
+               "from": [
+                  null
+               ],
+               "battle_only": true
+            }
          }
       ],
       "number": 780
@@ -27174,6 +27701,27 @@
             "gen": 8,
             "variant": null,
             "gender_ratio": "ungendered"
+         },
+         {
+            "links": {
+               "bulbapedia": "https://bulbapedia.bulbagarden.net/wiki/Falinks_(Pok%C3%A9mon)",
+               "pokepedia": "https://www.pokepedia.fr/M%C3%A9ga-Hexadron"
+            },
+            "names": {
+               "en": "Mega Falinks",
+               "fr": "Méga-Hexadron"
+            },
+            "types": [
+               "fighting"
+            ],
+            "gen": 9,
+            "variant": "mega",
+            "derives": {
+               "from": [
+                  null
+               ],
+               "battle_only": true
+            }
          }
       ],
       "number": 870
