@@ -9,6 +9,8 @@ The vast majority of icons from gen 1 to 8 was obtained thanks to the [PokéSpri
 
 Icons for generation 9 were obtained from a [resource pack](https://www.pokecommunity.com/threads/generation-9-resource-pack-v21-1.527398/) compiled by the user Caruban on PokéCommunity. The original artists are : Vent, Katten, leParagon, Cesare_CBass, AlexandreV2.0, Carmanekko, GRAFAIAIMX.
 
+Icons for the *Legends: Z-A* game and its DLC were obtained via the [National Pokedex project by MBCMechachu](https://www.deviantart.com/mbcmechachu/art/National-Pokedex-Icon-Dex-824897934). The original artists are : MBCMechachu, MultiDiegoDani, acpeters, FlorianDX.
+
 The icon sprites are © Nintendo/Creatures Inc./GAME FREAK Inc.
 
 ## Scripts
