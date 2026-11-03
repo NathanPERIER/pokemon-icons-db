@@ -87,6 +87,12 @@ def main() -> int :
                     form_graph_id = node.graph_id()
                 else:
                     form_graph_id = node.sub_nodes[form.variant].graph_id
+                if form.derives is not None :
+                    for derivation_variant in form.derives.from_variants :
+                        deriv_graph_id = node.sub_nodes[derivation_variant].graph_id
+                        node.intra_connections.append((deriv_graph_id, form_graph_id))
+                if form.is_temporary() :
+                    continue
                 if form.evolution_variants is not None :
                     for evolution_variants in form.evolution_variants :
                         pre_graph_id = pre_node.sub_nodes[evolution_variants].graph_id
@@ -99,10 +105,6 @@ def main() -> int :
                     diagram.inter_connections.append((pre_graph_id, form_graph_id))
                 else:
                     diagram.inter_connections.append((pre_node.graph_id(), form_graph_id))
-                if form.derives is not None :
-                    for derivation_variant in form.derives.from_variants :
-                        deriv_graph_id = node.sub_nodes[derivation_variant].graph_id
-                        node.intra_connections.append((deriv_graph_id, form_graph_id))
 
     os.makedirs(dest_dir, exist_ok=True)
     

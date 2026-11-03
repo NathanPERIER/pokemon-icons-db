@@ -87,10 +87,12 @@ def check_pokemon_groups(pokemon_data: list[pkmn_group], logger: error_logger):
         for form in group.forms :
             check_pokemon_sprites(group, form, logger)
             if form.evolution_variants is not None :
+                if len(form.evolution_variants) == 0 and form.variant is None :
+                    logger.error(f"Default form must be available through evolution")
                 if form.derives is not None :
                     logger.error(f"Found evolution variant {form.evolution_variants} for derived group")
                 if group.evolves_from is None :
-                    logger.error(f"Found evolution variant {form.evolution_variants} for non-evolving group")
+                    logger.error(f"Found evolution variant {form.evolution_variants} for non-evolved group")
                     continue
                 if pre_evolution is not None :
                     for evolution_variants in form.evolution_variants :
@@ -107,10 +109,10 @@ def check_pokemon_groups(pokemon_data: list[pkmn_group], logger: error_logger):
                         continue
                     else:
                         pre_form = pre_evolution.find_form(None)
-                        if pre_form is None :
+                        if pre_form is None and not form.is_temporary() :
                             logger.error(f"Pre-evolution group {pre_evolution.number} does not have a {form.variant} variant to evolve, nor a default variant")
                             continue
-                if pre_form.derives is not None :
+                if pre_form is not None and pre_form.derives is not None :
                     if pre_form.variant is None :
                         logger.error(f"Default evolution variant in pre-evolution group {pre_evolution.number} refers to a derived form")
                     else:

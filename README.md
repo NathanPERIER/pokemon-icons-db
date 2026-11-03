@@ -57,7 +57,7 @@ Additional constrains :
 | `types`              | `list`                   | (mandatory) | items: [type], unique   | The types of the Pokémon in this form                                                    |
 | `gen`                | `int`                    | (mandatory) | `1 <= val <= 9`         | Generation in which the form was introduced                                              |
 | `variant`            | `string` or `null`       | `null`      |                         | The variant associated with this form, `null` for the default/base form                  |
-| `evolution_variants` | `list` or `null`         | `null`      | items: `string`, unique | The non-default variant(s) required to evolve in this form                               |
+| `evolution_variants` | `list` or `null`         | `null`      | items: `string`, unique | The non-default variant(s) required to evolve in this form, empty if the form cannot be obtained through evolution |
 | `gender_variant`     | `bool`                   | `false`     |                         | Whether or not this form has a different appearence for males and females                |
 | `gender_ratio`       | [gender_ratio] or `null` | `null`      |                         | Repartition of male/female individuals in the current form, mandatory if the form is not temporary. |
 | `derives`            | [derivation] or `null`   | `null`      |                         | Indicates that the current form derives from other forms of the same Pokémon, if present |
@@ -70,6 +70,7 @@ Additional constrains :
 - All variants in `evolution_variants` must exist in the group associated with the `evolves_from` property (at group level). Additionally, they cannot refer to a derived form.
 - A form with a gender variant must have a gender ratio, and the ratio must allow for both male and female individuals.
 - The form with the default variant (`"variant": null`, if any) cannot be derived from another form.
+- The form with the default variant (`"variant": null`, if any) must be obtainable through evolution in an evolved group.
 - The first form in the list is the one that "best respresents" the species :
     - If the group has a null variant form, it must be the first in the list.
     - Else, the first form cannot be a derived form
