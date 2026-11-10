@@ -1,8 +1,11 @@
 
 import os
+import re
 import sys
 
 from pokemon_data import load_groups, load_types, pkmn_group, pkmn_form
+
+slug_reg = re.compile('[a-z]+[a-z0-9]*(?:-[a-z0-9]+)*')
 
 
 class error_logger :
@@ -49,6 +52,7 @@ def check_pokemon_sprites(group: pkmn_group, form: pkmn_form, logger: error_logg
 def check_pokemon_groups(pokemon_data: list[pkmn_group], logger: error_logger):
     last_number: int | None = None
     all_groups: dict[int, pkmn_group] = {}
+    all_slugs: set[str] = set()
     for group in pokemon_data:
         logger.start_group(group.number)
         if group.number in all_groups :
@@ -57,6 +61,12 @@ def check_pokemon_groups(pokemon_data: list[pkmn_group], logger: error_logger):
             logger.error(f"Group {group.number} is misplaced (previous is {last_number})")
         last_number = group.number
         all_groups[group.number] = group
+        slug: str = group.slug
+        if not slug_reg.fullmatch(slug) :
+            logger.error(f"Invalid slug {slug}")
+        if slug in all_slugs :
+            logger.error(f"Duplicate slug {slug}")
+        all_slugs.add(slug)
         known_variants: list[str | None] = []
         for form in group.forms :
             if form.variant is None and form.derives is not None :
