@@ -1,6 +1,7 @@
 
 import os
 import json
+import re
 
 from enum import Enum
 from functools import lru_cache
@@ -8,6 +9,8 @@ from functools import lru_cache
 import jsonschema
 from referencing import Registry, Resource
 from referencing.exceptions import NoSuchResource
+
+non_slug_reg = re.compile('[^a-z0-9]+')
 
 
 def load_json(path: str):
@@ -95,6 +98,11 @@ class pkmn_group:
             self.common_names = pkmn_names(data['common_names'])
         self.evolves_from: int | None = data['evolves_from']
         self.forms: list[pkmn_form] = list(pkmn_form(x) for x in data['forms'])
+        if self.common_names is not None :
+            base_name = self.common_names.en
+        else :
+            base_name = self.forms[0].names.en
+        self.slug: str = non_slug_reg.subn('-', base_name.lower().replace('♀', '-female').replace('♂', '-male'))[0].strip('-')
     
     def find_form(self, variant: str | None) -> pkmn_form | None :
         return next(filter(lambda x: x.variant == variant, self.forms), None)
