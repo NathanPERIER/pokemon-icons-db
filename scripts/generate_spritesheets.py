@@ -88,11 +88,14 @@ def main():
 
     pokemon_data = load_groups()
 
+    slug_as_id: bool = False
+
     # Associate sprites (filenames) with CSS classes
     sprites: dict[str, list[str]] = {}
     for group in pokemon_data:
         first = True
-        group_css_class = f"{icon_sprite_class}.n{group.number:04d}"
+        group_id: str = group.slug if slug_as_id else f"n{group.number:04d}"
+        group_css_class = f"{icon_sprite_class}.{group_id}"
         for form in group.forms:
             sprite_name = f"{group.number:04d}"
             female_sprite_name: str | None = None
