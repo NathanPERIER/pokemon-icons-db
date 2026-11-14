@@ -28,3 +28,6 @@ markdown:
 mermaid:
 	${VENV_PYTHON} scripts/generate_mermaid.py
 
+graphviz:
+	${VENV_PYTHON} scripts/generate_graphviz.py
+	dot -Tsvg generated/pokemon.dot > generated/pokemon.svg
