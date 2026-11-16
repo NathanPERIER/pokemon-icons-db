@@ -90,6 +90,8 @@ def check_pokemon_groups(pokemon_data: list[pkmn_group], logger: error_logger):
         logger.start_group(group.number)
         pre_evolution: pkmn_group | None = None
         if group.evolves_from is not None :
+            if group.evolves_from == group.number :
+                logger.error(f"Group cannot evolve from itself")
             if group.evolves_from in all_groups :
                 pre_evolution = all_groups[group.evolves_from]
             else:
