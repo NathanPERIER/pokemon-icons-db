@@ -22168,7 +22168,13 @@
             ],
             "gen": 7,
             "variant": "complete",
-            "gender_ratio": "ungendered"
+            "derives": {
+               "from": [
+                  "f10pct",
+                  "f50pct"
+               ],
+               "battle_only": true
+            }
          },
          {
             "links": {
