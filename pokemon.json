@@ -22285,7 +22285,12 @@
             ],
             "gen": 6,
             "variant": "unbound",
-            "gender_ratio": "ungendered"
+            "derives": {
+               "from": [
+                  "confined"
+               ],
+               "battle_only": false
+            }
          }
       ],
       "number": 720
