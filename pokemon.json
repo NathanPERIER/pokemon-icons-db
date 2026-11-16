@@ -16676,6 +16676,9 @@
             ],
             "gen": 8,
             "variant": "galar-standard",
+            "evolution_variants": [
+               "galar"
+            ],
             "gender_ratio": "1m-1f"
          },
          {
