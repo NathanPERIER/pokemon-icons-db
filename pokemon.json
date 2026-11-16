@@ -14163,8 +14163,8 @@
                "pokepedia": "https://www.pokepedia.fr/Motisma"
             },
             "names": {
-               "en": "Rotom Heat Rottom",
-               "fr": "Motisma Motisma Chaleur"
+               "en": "Heat Rotom",
+               "fr": "Motisma Chaleur"
             },
             "types": [
                "electric",
@@ -14185,8 +14185,8 @@
                "pokepedia": "https://www.pokepedia.fr/Motisma"
             },
             "names": {
-               "en": "Rotom Wash Rottom",
-               "fr": "Motisma Motisma Lavage"
+               "en": "Wash Rotom",
+               "fr": "Motisma Lavage"
             },
             "types": [
                "electric",
@@ -14207,8 +14207,8 @@
                "pokepedia": "https://www.pokepedia.fr/Motisma"
             },
             "names": {
-               "en": "Rotom Frost Rottom",
-               "fr": "Motisma Motisma Froid"
+               "en": "Frost Rotom",
+               "fr": "Motisma Froid"
             },
             "types": [
                "electric",
@@ -14229,8 +14229,8 @@
                "pokepedia": "https://www.pokepedia.fr/Motisma"
             },
             "names": {
-               "en": "Rotom Fan Rottom",
-               "fr": "Motisma Motisma Hélice"
+               "en": "Fan Rotom",
+               "fr": "Motisma Hélice"
             },
             "types": [
                "electric",
@@ -14251,8 +14251,8 @@
                "pokepedia": "https://www.pokepedia.fr/Motisma"
             },
             "names": {
-               "en": "Rotom Mow Rottom",
-               "fr": "Motisma Motisma Tonte"
+               "en": "Mow Rotom",
+               "fr": "Motisma Tonte"
             },
             "types": [
                "electric",
@@ -19139,8 +19139,8 @@
                "pokepedia": "https://www.pokepedia.fr/Kyurem_Blanc"
             },
             "names": {
-               "en": "Kyurem White Kyurem",
-               "fr": "Kyurem Kyurem Blanc"
+               "en": "White Kyurem",
+               "fr": "Kyurem Blanc"
             },
             "types": [
                "dragon",
@@ -19161,8 +19161,8 @@
                "pokepedia": "https://www.pokepedia.fr/Kyurem_Noir"
             },
             "names": {
-               "en": "Kyurem Black Kyurem",
-               "fr": "Kyurem Kyurem Noir"
+               "en": "Black Kyurem",
+               "fr": "Kyurem Noir"
             },
             "types": [
                "dragon",
