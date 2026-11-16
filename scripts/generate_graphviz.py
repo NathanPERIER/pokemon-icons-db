@@ -2,6 +2,8 @@
 import os
 import sys
 
+from collections import deque
+
 from pokemon_data import load_groups, load_types
 
 
@@ -49,42 +51,103 @@ class group_subgraph:
             graph_id = f"f{self.number:04d}_{id}".replace('-', '_')
         self.sub_nodes[id] = form_node(graph_id, name, colours, temporary)
 
+    def format_group(self, lines: list[str], prefix: str):
+        if len(self.sub_nodes) > 1 :
+            lines.append(f"{prefix}    subgraph {self.graph_id} {{")
+            lines.append(f"{prefix}        label=\"{self.name}\";")
+            lines.append(f"{prefix}        style=\"rounded\";")
+            #lines.append(f"{prefix}        style=\"dashed,rounded\"")
+            lines.append(f"{prefix}        color=\"#d1d1d1\";")
+            lines.append(f"{prefix}        fontcolor=\"#d1d1d1\";")
+            lines.append('')
+            for sub_node in self.sub_nodes.values() :
+                lines.append(f"{prefix}        {sub_node.format_node()}")
+            for conn in self.intra_connections :
+                lines.append(f"{prefix}        {conn.format_connection()};")
+            lines.append(f"{prefix}    }}")
+        else:
+            sub_node = next(iter(self.sub_nodes.values()))
+            lines.append(f"{prefix}    {sub_node.format_node()}")
+
+class evolution_lineage:
+    def __init__(self, number: int):
+        self.graph_id: str = f"l{number:04d}"
+        self.groups: dict[int, group_subgraph] = {}
+        self.inter_connections: list[node_connection] = []
+
+    def format_lineage(self, lines: list[str]):
+        if len(self.groups) == 1 :
+            node: group_subgraph = next(iter(self.groups.values()))
+            node.format_group(lines, '')
+            lines.append('')
+            return
+        lines.append(f"    subgraph {self.graph_id} {{")
+        lines.append('        style="invis";')
+        # lines.append('        style="rounded";')
+        # lines.append('        color="#878787";')
+        lines.append('')
+        for node in self.groups.values() :
+            node.format_group(lines, '    ')
+            lines.append('')
+        if len(self.inter_connections) == 0 :
+            lines.pop()
+        for conn in self.inter_connections :
+            lines.append(f"        {conn.format_connection()};")
+        lines.append('    }')
+        lines.append('')
+
 class dot_diagram:
     def __init__(self):
-        self.nodes: dict[int, group_subgraph] = {}
-        self.inter_connections: list[node_connection] = []
-    
+        self.pending_forms: deque[tuple[group_subgraph, int]] = deque()
+        self.lineages: list[evolution_lineage] = []
+        self.group_indexes: dict[int, int] = {}
+
+    def get_lineage(self, group_number: int):
+        return self.lineages[self.group_indexes[group_number]]
+
+    def _try_register_form(self, group: group_subgraph, evolved_from: int):
+        if not evolved_from in self.group_indexes :
+            self.pending_forms.append((group, evolved_from))
+            return
+        form_index = self.group_indexes[evolved_from]
+        self.group_indexes[group.number] = form_index
+        self.lineages[form_index].groups[group.number] = group
+
+    def add_group(self, number: int, name: str, evolved_from: int | None) -> group_subgraph :
+        node = group_subgraph(number, name)
+        if evolved_from is None :
+            lineage = evolution_lineage(len(self.lineages) + 1)
+            lineage.groups[node.number] = node
+            self.lineages.append(lineage)
+            self.group_indexes[node.number] = len(self.lineages) - 1
+        else:
+            self._try_register_form(node, evolved_from)
+        return node
+
+    def finish_lineage_processing(self):
+        while len(self.pending_forms) > 0 :
+            (group, evolved_from) = self.pending_forms.popleft()
+            # print(f"Retry {group.name} #{group.number} (from #{evolved_from})")
+            self._try_register_form(group, evolved_from)
+
     def get_lines(self) -> list[str] :
         res: list[str] = [
             'digraph G {',
             '    center=true;',
             '    compound=true;',
+            '    splines=polyline;',
             '    fontname="Fira Code";',
             '    rankdir="LR";',
             '',
-            '    graph [cluster=true color="#D1D1D1" style=rounded fontcolor="#D1D1D1" penwidth=2];',
+            '    graph [cluster=true penwidth=2];',
             '',
             # striped ?'
             '    node [shape=rectangle group="g1" style="filled,rounded" color=transparent fontname="Fira Code" fontcolor=white margin=0.2];',
             ''
         ]
 
-        for node in self.nodes.values() :
-            if len(node.sub_nodes) > 1 :
-                res.append(f"    subgraph {node.graph_id} {{")
-                res.append(f"        label=\"{node.name}\"")
-                for sub_node in node.sub_nodes.values() :
-                    res.append(f"        {sub_node.format_node()}")
-                for conn in node.intra_connections :
-                    res.append(f"        {conn.format_connection()};")
-                res.append('    }')
-            else:
-                sub_node = next(iter(node.sub_nodes.values()))
-                res.append(f"    {sub_node.format_node()}")
-            res.append('')
-
-        for conn in self.inter_connections :
-            res.append(f"    {conn.format_connection()};")
+        for lineage in self.lineages :
+            lineage.format_lineage(res)
 
         res.append('}')
 
@@ -101,14 +164,15 @@ def main() -> int :
 
     for group in pokemon_data :
         group_name = group.common_names.en if group.common_names is not None else group.forms[0].names.en
-        node = group_subgraph(group.number, group_name)
-        diagram.nodes[node.number] = node
+        node: group_subgraph = diagram.add_group(group.number, group_name, group.evolves_from)
         for form in group.forms :
             colours: list[str] = [type_data[type_id].colour for type_id in form.types]
             node.add_sub_node(form.variant, form.names.en, colours, form.is_temporary())
+    diagram.finish_lineage_processing()
 
     for group in pokemon_data :
-        node = diagram.nodes[group.number]
+        lineage = diagram.get_lineage(group.number)
+        node = lineage.groups[group.number]
         for form in group.forms :
             form_graph_id = node.sub_nodes[form.variant].graph_id
             if form.derives is not None :
@@ -116,27 +180,23 @@ def main() -> int :
                     deriv_graph_id = node.sub_nodes[derivation_variant].graph_id
                     node.intra_connections.append(node_connection(deriv_graph_id, form_graph_id, form.is_temporary()))
         if group.evolves_from is not None :
-            pre_node = diagram.nodes[group.evolves_from]
+            pre_node = lineage.groups[group.evolves_from]
             for form in group.forms :
-                # if len(node.sub_nodes) == 0 :
-                #     form_graph_id = node.graph_id
-                # else:
-                #     form_graph_id = node.sub_nodes[form.variant].graph_id
                 form_graph_id = node.sub_nodes[form.variant].graph_id
                 if form.derives is not None :
                     continue
                 if form.evolution_variants is not None :
                     for evolution_variants in form.evolution_variants :
                         pre_graph_id = pre_node.sub_nodes[evolution_variants].graph_id
-                        diagram.inter_connections.append(node_connection(pre_graph_id, form_graph_id, False))
+                        lineage.inter_connections.append(node_connection(pre_graph_id, form_graph_id, False))
                 elif form.variant is not None and form.variant in pre_node.sub_nodes :
                     pre_graph_id = pre_node.sub_nodes[form.variant].graph_id
-                    diagram.inter_connections.append(node_connection(pre_graph_id, form_graph_id, False))
+                    lineage.inter_connections.append(node_connection(pre_graph_id, form_graph_id, False))
                 elif len(pre_node.sub_nodes) > 0 :
                     pre_graph_id = pre_node.sub_nodes[None].graph_id
-                    diagram.inter_connections.append(node_connection(pre_graph_id, form_graph_id, False))
+                    lineage.inter_connections.append(node_connection(pre_graph_id, form_graph_id, False))
                 else:
-                    diagram.inter_connections.append(node_connection(pre_node.graph_id, form_graph_id, False))
+                    lineage.inter_connections.append(node_connection(pre_node.graph_id, form_graph_id, False))
 
     os.makedirs(dest_dir, exist_ok=True)
     
